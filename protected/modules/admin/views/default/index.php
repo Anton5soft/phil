@@ -1,8 +1,5 @@
 <div class="admin">
     <?php
-    Yii::app()->clientScript->registerScript('helpers', '
-baseUrl = '.CJSON::encode(Yii::app()->baseUrl).';
-');
     $baseUrl = Yii::app()->baseUrl;
     Yii::app()->clientScript->registerCoreScript('jquery.ui');
     Yii::app()->clientScript->registerScriptFile($baseUrl.'/js/links.js', CClientScript::POS_END);

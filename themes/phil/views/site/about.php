@@ -1,3 +1,13 @@
+<?php
+$this->widget('zii.widgets.CBreadcrumbs', array(
+    'links'=>array(
+        'ABOUT',
+    ),
+    'htmlOptions' => array(
+        'class' => 'breadcrumbs breadcrumb'
+    )
+));
+?>
 <div class="contact">
 <h1>Biography</h1>
 

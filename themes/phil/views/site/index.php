@@ -1,9 +1,9 @@
+
 <?php
 /* @var $this SiteController */
 
 $this->pageTitle=Yii::app()->name;
 ?>
-<?php $this->widget('LangBox') ?>
 <div id="cont">
 <p><b><font face="Arial, Helvetica, sans-serif"><font size="7"><font color="#FFF0F5">HOW DO YOU END UP WITH </font></font></font></b></p>
 <p><b><font face="Arial, Helvetica, sans-serif"><font size="7"><font color="#FFF0F5">A MILLION DOLLARS </font></font></font></b></p>

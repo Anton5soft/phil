@@ -1,4 +1,14 @@
 <?php
+$this->widget('zii.widgets.CBreadcrumbs', array(
+    'links'=>array(
+        'GALLERY',
+    ),
+    'htmlOptions' => array(
+        'class' => 'breadcrumbs breadcrumb'
+    )
+));
+?>
+<?php
 $baseUrl = Yii::app()->baseUrl;
 Yii::app()->clientScript->registerCoreScript('jquery.ui');
 Yii::app()->clientScript->registerScriptFile($baseUrl.'/js/jssliderimage/startslider.js', CClientScript::POS_END);

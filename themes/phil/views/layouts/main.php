@@ -7,8 +7,8 @@
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/styles.css" />
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
-    </div>
 
+    </div>
     <?php
     $baseUrl = Yii::app()->baseUrl;
     Yii::app()->clientScript->registerCoreScript('jquery.ui');
@@ -23,7 +23,7 @@
     <?php $this->widget('zii.widgets.CMenu',array(
         'htmlOptions'=>array('class'=>'nav'),
         'items'=>array(
-            array('label'=>Yii::t('menu','Home'), 'url'=>array('')),
+            array('label'=>Yii::t('menu','Home'), 'url'=>'site'),
             array('label'=>Yii::t('menu', 'News'),
                 'url'=>'#',
                 'linkOptions'=>array(
@@ -65,6 +65,9 @@
                     'class'=>'menu',
                     'data-url'=>Yii::app()->createUrl("site/contact"),
                 ),
+                array(
+                  $this->widget('LangBox'),
+                ),
             ),
             array('label'=>Yii::t('menu','Logout'), 'url'=>array('site/logout'), 'visible'=>!Yii::app()->user->isGuest),
 
@@ -74,6 +77,7 @@
 </div>
     </div>
     </div><!-- mainmenu -->
+
 <div class="container" id="page">
     <br>
 	<?php if(isset($this->breadcrumbs)):?>

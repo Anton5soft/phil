@@ -148,7 +148,7 @@ class TourController extends Controller
                 'pages' => $pages,
                 'posts' => $posts,
             ), true);
-            echo CJSON::encode($done);//JSON
+            echo $done;//JSON
             Yii::app()->end();
         }
 		$this->render('index',array(

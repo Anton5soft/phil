@@ -1467,3 +1467,556 @@ Stack trace:
 REQUEST_URI=/phil/site/js/jssliderimage/images/lightbox-blank.gif
 HTTP_REFERER=http://localhost/phil/site/index
 ---
+2014/04/10 15:31:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('admin')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('admin')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/admin
+---
+2014/04/10 15:31:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/66c9ba75/wym.css".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/66c9ba75...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/assets/66c9ba75/wym.css
+---
+2014/04/10 15:31:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397133100046
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/10 15:31:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397133114245
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/10 15:32:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397133120355
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/10 15:33:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/66c9ba75/wym.css".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/66c9ba75...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/assets/66c9ba75/wym.css
+---
+2014/04/10 15:33:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397133210993
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/10 15:45:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('themes')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('themes')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/themes/phi...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/themes/phil/css/img/Backgroundnews.jpg
+HTTP_REFERER=http://localhost/phil/site/index
+---
+2014/04/10 15:45:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "protected".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('protected')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('protected')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/protected/...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/protected/themes/phil/css/img/Backgroundnews.jpg
+HTTP_REFERER=http://localhost/phil/site/index
+---
+2014/04/10 15:45:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "protected".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('protected')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('protected')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/protected/...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/protected/themes/phil/css/img/Backgroundnews.jpg
+---
+2014/04/10 15:46:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "protected".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('protected')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('protected')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/protected/...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/protected/themes/phil/css/img/Backgroundnews.jpg
+---
+2014/04/10 15:46:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "protected".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('protected')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('protected')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/protected/...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/protected/themes/phil/css/themes/phil/css/img/Backgroundnews.jpg
+HTTP_REFERER=http://localhost/phil/site/protected/themes/phil/css/img/Backgroundnews.jpg
+---
+2014/04/10 15:47:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "protected".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('protected')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('protected')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/protected/...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/protected/themes/phil/css/img/Backgroundnews.jpg
+---
+2014/04/10 15:47:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "protected".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('protected')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('protected')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/protected/...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/protected/themes/phil/css/css/img/Backgroundnews.jpg
+HTTP_REFERER=http://localhost/phil/site/protected/themes/phil/css/img/Backgroundnews.jpg
+---
+2014/04/10 15:47:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "protected".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('protected')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('protected')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/protected/...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/protected/themes/phil/css/img/Backgroundnews.jpg
+---
+2014/04/10 15:47:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "protected".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('protected')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('protected')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/protected/...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/protected/themes/phil/css/img/Backgroundnews.jpg
+HTTP_REFERER=http://localhost/phil/site/protected/themes/phil/css/img/Backgroundnews.jpg
+---
+2014/04/10 15:48:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "protected".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('protected')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('protected')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/protected/...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/protected/themes/phil/css/img/Backgroundnews.jpg
+---
+2014/04/10 15:48:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "protected".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('protected')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('protected')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/protected/...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/protected/themes/phil/css/img/Backgroundnews.jpg
+---
+2014/04/10 15:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "protected".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('protected')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('protected')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/protected/...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/protected/themes/phil/css/img/Backgroundnews.jpg
+HTTP_REFERER=http://localhost/phil/site/protected/themes/phil/css/img/Backgroundnews.jpg
+---
+2014/04/10 15:48:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "protected".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('protected')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('protected')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/protected/...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/protected/themes/phil/css/img/Backgroundnews.jpg
+HTTP_REFERER=http://localhost/phil/site/protected/themes/phil/css/img/Backgroundnews.jpg
+---
+2014/04/10 15:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('themes')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('themes')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/themes/phi...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/themes/phil/css/img/Backgroundnews.jpg
+HTTP_REFERER=http://localhost/phil/site/index
+---
+2014/04/10 15:52:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('themes')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('themes')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/themes/phi...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/themes/phil/css/img/Backgroundnews.jpg
+HTTP_REFERER=http://localhost/phil/site/index
+---
+2014/04/10 15:53:15 [error] [exception.CException] exception 'CException' with message 'LangBox and its behaviors do not have a method or closure named "renderPartial".' in /www/phil/framework/base/CComponent.php:266
+Stack trace:
+#0 /www/phil/protected/components/LangBox.php(7): CComponent->__call('renderPartial', Array)
+#1 /www/phil/protected/components/LangBox.php(7): LangBox->renderPartial('langBox', Array)
+#2 /www/phil/framework/web/CBaseController.php(173): LangBox->run()
+#3 /www/phil/themes/phil/views/site/index.php(6): CBaseController->widget('LangBox')
+#4 /www/phil/framework/web/CBaseController.php(126): require('/www/phil/theme...')
+#5 /www/phil/framework/web/CBaseController.php(95): CBaseController->renderInternal('/www/phil/theme...', NULL, true)
+#6 /www/phil/framework/web/CController.php(869): CBaseController->renderFile('/www/phil/theme...', NULL, true)
+#7 /www/phil/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#8 /www/phil/protected/controllers/SiteController.php(49): CController->render('index')
+#9 /www/phil/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#10 /www/phil/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /www/phil/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /www/phil/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /www/phil/framework/web/CWebApplication.php(282): CController->run('index')
+#14 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#15 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /www/phil/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/phil/site/index
+HTTP_REFERER=http://localhost/phil/
+---
+2014/04/10 15:56:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('themes')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('themes')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/themes/phi...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/themes/phil/css/img/Backgroundnews.jpg
+HTTP_REFERER=http://localhost/phil/site/index
+---
+2014/04/10 15:57:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('themes')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('themes')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/themes/phi...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/themes/phil/css/img/Backgroundnews.jpg
+HTTP_REFERER=http://localhost/phil/site/index
+---
+2014/04/10 15:57:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('themes')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('themes')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/themes/phi...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/themes/phil/css/img/Backgroundnews.jpg
+HTTP_REFERER=http://localhost/phil/site/index
+---
+2014/04/10 15:57:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('themes')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('themes')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/themes/phi...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/themes/phil/css/img/Backgroundnews.jpg
+HTTP_REFERER=http://localhost/phil/site/index
+---
+2014/04/10 15:57:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('themes')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('themes')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/themes/phi...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/themes/phil/css/img/Backgroundnews.jpg
+HTTP_REFERER=http://localhost/phil/site/index
+---
+2014/04/10 15:59:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('themes')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('themes')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/themes/phi...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/themes/phil/css/img/Backgroundnews.jpg
+HTTP_REFERER=http://localhost/phil/site/index
+---
+2014/04/10 15:59:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('themes')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('themes')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site/themes/phi...')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/site/themes/phil/css/img/Backgroundnews.jpg
+HTTP_REFERER=http://localhost/phil/site/index
+---
+2014/04/10 16:10:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "site".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('site')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('site')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news/site')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/news/site
+HTTP_REFERER=http://localhost/phil/news/index
+---
+2014/04/10 16:18:48 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "TbBreadcrumbs.0".' in /www/phil/framework/base/CComponent.php:173
+Stack trace:
+#0 /www/phil/framework/web/CWidgetFactory.php(161): CComponent->__set('0', '')
+#1 /www/phil/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 /www/phil/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /www/phil/themes/phil/views/layouts/main.php(83): CBaseController->widget('bootstrap.widge...', Array)
+#4 /www/phil/framework/web/CBaseController.php(126): require('/www/phil/theme...')
+#5 /www/phil/framework/web/CBaseController.php(95): CBaseController->renderInternal('/www/phil/theme...', Array, true)
+#6 /www/phil/framework/web/widgets/CContentDecorator.php(76): CBaseController->renderFile('/www/phil/theme...', Array, true)
+#7 /www/phil/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#8 /www/phil/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#9 /www/phil/framework/web/CBaseController.php(206): COutputProcessor->run()
+#10 /www/phil/framework/web/CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 /www/phil/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#12 /www/phil/framework/web/CBaseController.php(126): require('/www/phil/prote...')
+#13 /www/phil/framework/web/CBaseController.php(95): CBaseController->renderInternal('/www/phil/prote...', Array, true)
+#14 /www/phil/framework/web/CController.php(784): CBaseController->renderFile('/www/phil/prote...', Array, true)
+#15 /www/phil/protected/controllers/SiteController.php(49): CController->render('index')
+#16 /www/phil/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#17 /www/phil/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /www/phil/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#19 /www/phil/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /www/phil/framework/web/CWebApplication.php(282): CController->run('')
+#21 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#22 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /www/phil/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/phil/site
+HTTP_REFERER=http://localhost/phil/site
+---
+2014/04/10 16:22:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "site".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('site')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('site')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news/site')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/news/site
+HTTP_REFERER=http://localhost/phil/news/
+---
+2014/04/10 16:34:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "news".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('news')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('news')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news/news')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/news/news
+HTTP_REFERER=http://localhost/phil/news/
+---
+2014/04/10 16:34:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('site')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('site')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news/site')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/news/site
+HTTP_REFERER=http://localhost/phil/news/
+---
+2014/04/10 17:12:47 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "andScript".' in /www/phil/framework/base/CComponent.php:266
+Stack trace:
+#0 /www/phil/protected/controllers/NewsController.php(159): CComponent->__call('andScript', Array)
+#1 /www/phil/protected/controllers/NewsController.php(159): CWebApplication->andScript('jquery.js')
+#2 /www/phil/framework/web/actions/CInlineAction.php(49): NewsController->actionIndex()
+#3 /www/phil/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /www/phil/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /www/phil/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /www/phil/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /www/phil/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /www/phil/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /www/phil/framework/web/CController.php(291): CFilterChain->run()
+#10 /www/phil/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /www/phil/framework/web/CWebApplication.php(282): CController->run('')
+#12 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news')
+#13 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /www/phil/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/phil/news
+HTTP_REFERER=http://localhost/phil/site
+---
+2014/04/10 17:13:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('site')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('site')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news/site')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/news/site
+HTTP_REFERER=http://localhost/phil/news/
+---
+2014/04/10 17:13:05 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "andScript".' in /www/phil/framework/base/CComponent.php:266
+Stack trace:
+#0 /www/phil/protected/controllers/NewsController.php(159): CComponent->__call('andScript', Array)
+#1 /www/phil/protected/controllers/NewsController.php(159): CWebApplication->andScript('jquery.js')
+#2 /www/phil/framework/web/actions/CInlineAction.php(49): NewsController->actionIndex()
+#3 /www/phil/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /www/phil/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /www/phil/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /www/phil/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /www/phil/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /www/phil/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /www/phil/framework/web/CController.php(291): CFilterChain->run()
+#10 /www/phil/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /www/phil/framework/web/CWebApplication.php(282): CController->run('')
+#12 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news')
+#13 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /www/phil/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/phil/news
+HTTP_REFERER=http://localhost/phil/
+---
+2014/04/10 17:13:17 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "andScript".' in /www/phil/framework/base/CComponent.php:266
+Stack trace:
+#0 /www/phil/protected/controllers/NewsController.php(159): CComponent->__call('andScript', Array)
+#1 /www/phil/protected/controllers/NewsController.php(159): CWebApplication->andScript('jquery.js')
+#2 /www/phil/framework/web/actions/CInlineAction.php(49): NewsController->actionIndex()
+#3 /www/phil/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /www/phil/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /www/phil/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /www/phil/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /www/phil/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /www/phil/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /www/phil/framework/web/CController.php(291): CFilterChain->run()
+#10 /www/phil/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /www/phil/framework/web/CWebApplication.php(282): CController->run('')
+#12 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news')
+#13 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /www/phil/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/phil/news
+HTTP_REFERER=http://localhost/phil/site
+---
+2014/04/10 17:13:28 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "andScript".' in /www/phil/framework/base/CComponent.php:266
+Stack trace:
+#0 /www/phil/protected/controllers/NewsController.php(159): CComponent->__call('andScript', Array)
+#1 /www/phil/protected/controllers/NewsController.php(159): CWebApplication->andScript('jquery.js')
+#2 /www/phil/framework/web/actions/CInlineAction.php(49): NewsController->actionIndex()
+#3 /www/phil/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /www/phil/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /www/phil/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /www/phil/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /www/phil/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /www/phil/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /www/phil/framework/web/CController.php(291): CFilterChain->run()
+#10 /www/phil/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /www/phil/framework/web/CWebApplication.php(282): CController->run('')
+#12 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news')
+#13 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /www/phil/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/phil/news
+HTTP_REFERER=http://localhost/phil/site
+---
+2014/04/10 17:14:19 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "andScript".' in /www/phil/framework/base/CComponent.php:266
+Stack trace:
+#0 /www/phil/protected/controllers/NewsController.php(159): CComponent->__call('andScript', Array)
+#1 /www/phil/protected/controllers/NewsController.php(159): CWebApplication->andScript('jquery.js')
+#2 /www/phil/framework/web/actions/CInlineAction.php(49): NewsController->actionIndex()
+#3 /www/phil/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /www/phil/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /www/phil/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /www/phil/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /www/phil/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /www/phil/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /www/phil/framework/web/CController.php(291): CFilterChain->run()
+#10 /www/phil/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /www/phil/framework/web/CWebApplication.php(282): CController->run('')
+#12 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news')
+#13 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /www/phil/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/phil/news
+HTTP_REFERER=http://localhost/phil/site
+---
+2014/04/10 17:16:16 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "unsetScript".' in /www/phil/framework/base/CComponent.php:266
+Stack trace:
+#0 /www/phil/protected/controllers/NewsController.php(159): CComponent->__call('unsetScript', Array)
+#1 /www/phil/protected/controllers/NewsController.php(159): CWebApplication->unsetScript('jquery.js')
+#2 /www/phil/framework/web/actions/CInlineAction.php(49): NewsController->actionIndex()
+#3 /www/phil/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /www/phil/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /www/phil/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /www/phil/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /www/phil/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /www/phil/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /www/phil/framework/web/CController.php(291): CFilterChain->run()
+#10 /www/phil/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /www/phil/framework/web/CWebApplication.php(282): CController->run('')
+#12 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news')
+#13 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /www/phil/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/phil/news
+HTTP_REFERER=http://localhost/phil/site
+---
+2014/04/10 17:16:23 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "unsetScript".' in /www/phil/framework/base/CComponent.php:266
+Stack trace:
+#0 /www/phil/protected/controllers/NewsController.php(159): CComponent->__call('unsetScript', Array)
+#1 /www/phil/protected/controllers/NewsController.php(159): CWebApplication->unsetScript('jquery.js')
+#2 /www/phil/framework/web/actions/CInlineAction.php(49): NewsController->actionIndex()
+#3 /www/phil/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /www/phil/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /www/phil/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /www/phil/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /www/phil/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /www/phil/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /www/phil/framework/web/CController.php(291): CFilterChain->run()
+#10 /www/phil/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /www/phil/framework/web/CWebApplication.php(282): CController->run('')
+#12 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news')
+#13 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /www/phil/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/phil/news
+HTTP_REFERER=http://localhost/phil/site
+---

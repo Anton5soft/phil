@@ -157,7 +157,7 @@ class NewsController extends Controller
             $done =$this->renderPartial('index', array(
                 'posts' => $posts,
             'pages' => $pages,
-            ), true, true);
+            ), true);
             echo $done;
             Yii::app()->end();
         }

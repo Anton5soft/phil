@@ -34,7 +34,6 @@
         )); ?>
 
 <div class="container" id="page">
-    <?php $this->widget('LangBox', array()); ?>
     <br>
 	<?php if(isset($this->breadcrumbs)):?>
 		<?php $this->widget('bootstrap.widgets.TbBreadcrumbs', array(

@@ -40,7 +40,7 @@ return array(
 	'components'=>array(
         'PagTour',
         'PagNews',
-
+        'andScript',
         'urlManager'=>array(
            'class'=>'UrlManager',
            'urlFormat'=>'path',

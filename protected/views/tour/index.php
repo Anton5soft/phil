@@ -1,17 +1,32 @@
-
+<?php
+$this->widget('zii.widgets.CBreadcrumbs', array(
+    'links'=>array(
+        'TOUR',
+    ),
+    'htmlOptions' => array(
+        'class' => 'breadcrumbs breadcrumb'
+    )
+));
+?>
 <div class="tourc">
 </div>
 <div class="tourcont">
    <center><h1><?php echo Yii::t('tour','Tour') ?></h1></center>
-
+        <table class="table table-bordered table-striped table-hover">
            <?php foreach($posts as $x => $post): ?>
-               <div class="panel panel-default">
-                   <div class="panel-heading">
-            <?php echo $post -> title ?></div>
+            <thead>
+            <tr>
+            <th><?php echo $post -> title ?></div>  </th>
     </div>
-        <blockquote><?php echo $post -> content ?></blockquote>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td><p style="color:white"><?php echo $post -> content ?></p>  </td>
     <?php endforeach; ?>
-
+</tbody>
+</table>
+</section>
     <br>
     <br>
     <div class="pagination">

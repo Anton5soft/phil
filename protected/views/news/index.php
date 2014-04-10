@@ -1,7 +1,17 @@
-
+<?php
+$this->widget('zii.widgets.CBreadcrumbs', array(
+    'links'=>array(
+        'NEWS',
+    ),
+    'htmlOptions' => array(
+        'class' => 'breadcrumbs breadcrumb'
+    )
+));
+?>
 <div class="newsc">
 </div>
 <div class="newscont">
+    <?php echo Yii::app()->controller->id; ?>
     <center><h1><?php echo Yii::t('news','News') ?></h1></center>
 <ul>
         <?php foreach($posts as $x => $post): ?>

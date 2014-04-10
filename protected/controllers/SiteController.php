@@ -101,12 +101,8 @@ class SiteController extends Controller
 				$this->refresh();
 			}
 		}
-        if (Yii::app()->request->isAjaxRequest) {
-            $done =$this->renderPartial('contact', array('model'=>$model
-            ), true, true);
-            echo $done;
-            Yii::app()->end();
-        }
+
+
 	}
 
 	/**
