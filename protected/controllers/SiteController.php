@@ -69,6 +69,15 @@ class SiteController extends Controller
     public function actionAbout()
     {
         if (Yii::app()->request->isAjaxRequest) {
+            Yii::app()->getClientScript()->scriptMap = array(
+                'jquery.js' => false,
+                'jquery.min.js' => false,
+                'jquery-ui.min.js' => false,
+                'jquery.ba-bbq.js'=>false,
+                'jquery.yiigridview.js'=>false,
+            );
+        }
+        if (Yii::app()->request->isAjaxRequest) {
             $done =$this->renderPartial('about', true);
             echo $done;
             Yii::app()->end();
@@ -101,6 +110,15 @@ class SiteController extends Controller
 				$this->refresh();
 			}
 		}
+        if (Yii::app()->request->isAjaxRequest) {
+            Yii::app()->getClientScript()->scriptMap = array(
+                'jquery.js' => false,
+                'jquery.min.js' => false,
+                'jquery-ui.min.js' => false,
+                'jquery.ba-bbq.js'=>false,
+                'jquery.yiigridview.js'=>false,
+            );
+        }
         if (Yii::app()->request->isAjaxRequest) {
             $done =$this->renderPartial('contact', array('model'=>$model
             ), true, true);

@@ -143,11 +143,21 @@ class TourController extends Controller
         $pages -> applyLimit($criteria);
         $posts= Tour::model() -> findAll($criteria);
 		$dataProvider=new CActiveDataProvider('Tour');
+
+        if (Yii::app()->request->isAjaxRequest) {
+            Yii::app()->getClientScript()->scriptMap = array(
+                'jquery.js' => false,
+                'jquery.min.js' => false,
+                'jquery-ui.min.js' => false,
+                'jquery.ba-bbq.js'=>false,
+                'jquery.yiigridview.js'=>false,
+            );
+        }
         if (Yii::app()->request->isAjaxRequest) {
             $done =$this->renderPartial('index', array(
                 'pages' => $pages,
                 'posts' => $posts,
-            ), true);
+            ), true,true);
             echo $done;//JSON
             Yii::app()->end();
         }
@@ -167,8 +177,7 @@ class TourController extends Controller
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['Tour']))
 			$model->attributes=$_GET['Tour'];
-
-		$this->render('admin',array(
+		$this->renderPartial('admin',array(
 			'model'=>$model,
 		));
 	}

@@ -144,6 +144,15 @@ class VideoController extends Controller
         }
 		$dataProvider=new CActiveDataProvider('Video');
         if (Yii::app()->request->isAjaxRequest) {
+            Yii::app()->getClientScript()->scriptMap = array(
+                'jquery.js' => false,
+                'jquery.min.js' => false,
+                'jquery-ui.min.js' => false,
+                'jquery.ba-bbq.js'=>false,
+                'jquery.yiigridview.js'=>false,
+            );
+        }
+        if (Yii::app()->request->isAjaxRequest) {
             $done =$this->renderPartial('index', array(
                 'dataProvider'=>$dataProvider,
                 'items' => $items,

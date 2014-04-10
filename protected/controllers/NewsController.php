@@ -153,11 +153,21 @@ class NewsController extends Controller
         $pages -> pageSize = 1;
         $pages -> applyLimit($criteria);
         $posts= News::model() -> findAll($criteria);
+
+        if (Yii::app()->request->isAjaxRequest) {
+            Yii::app()->getClientScript()->scriptMap = array(
+                'jquery.js' => false,
+                'jquery.min.js' => false,
+                'jquery-ui.min.js' => false,
+                'jquery.ba-bbq.js'=>false,
+                'jquery.yiigridview.js'=>false,
+            );
+        }
         if (Yii::app()->request->isAjaxRequest) {
             $done =$this->renderPartial('index', array(
                 'posts' => $posts,
             'pages' => $pages,
-            ), true);
+            ), true,true);
             echo $done;
             Yii::app()->end();
         }
@@ -177,9 +187,16 @@ class NewsController extends Controller
 		if(isset($_GET['News']))
 			$model->attributes=$_GET['News'];
         if (Yii::app()->request->isAjaxRequest) {
+            Yii::app()->getClientScript()->scriptMap = array(
+                'jquery.js' => false,
+                'jquery.min.js' => false,
+                'jquery-ui.min.js' => false,
+            );
+        }
+        if (Yii::app()->request->isAjaxRequest) {
             $done =$this->renderPartial('admin',array(
                 'model'=>$model,
-            ), false, true);
+            ), true, true);
             echo $done;
             Yii::app()->end();
         }

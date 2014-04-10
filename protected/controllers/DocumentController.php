@@ -159,6 +159,15 @@ class DocumentController extends Controller
         }
         $dataProvider=new CActiveDataProvider('Document');
         if (Yii::app()->request->isAjaxRequest) {
+            Yii::app()->getClientScript()->scriptMap = array(
+                'jquery.js' => false,
+                'jquery.min.js' => false,
+                'jquery-ui.min.js' => false,
+                'jquery.ba-bbq.js'=>false,
+                'jquery.yiigridview.js'=>false,
+            );
+        }
+        if (Yii::app()->request->isAjaxRequest) {
             $done =$this->renderPartial('index', array(
                 'items'=>$items
             ), true, true);
