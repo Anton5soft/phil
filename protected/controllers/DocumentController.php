@@ -187,9 +187,13 @@ class DocumentController extends Controller
 		if(isset($_GET['Document']))
 			$model->attributes=$_GET['Document'];
 
-		$this->render('admin',array(
-			'model'=>$model,
-		));
+        if (Yii::app()->request->isAjaxRequest) {
+            $done =$this->renderPartial('admin',array(
+                'model'=>$model,
+            ), true, true);
+            echo $done;
+            Yii::app()->end();
+        }
 	}
 
 	/**

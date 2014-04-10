@@ -177,9 +177,14 @@ class TourController extends Controller
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['Tour']))
 			$model->attributes=$_GET['Tour'];
-		$this->renderPartial('admin',array(
-			'model'=>$model,
-		));
+
+        if (Yii::app()->request->isAjaxRequest) {
+            $done =$this->renderPartial('admin',array(
+                'model'=>$model,
+            ), true, true);
+            echo $done;
+            Yii::app()->end();
+        }
 	}
 
 	/**

@@ -186,13 +186,7 @@ class NewsController extends Controller
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['News']))
 			$model->attributes=$_GET['News'];
-        if (Yii::app()->request->isAjaxRequest) {
-            Yii::app()->getClientScript()->scriptMap = array(
-                'jquery.js' => false,
-                'jquery.min.js' => false,
-                'jquery-ui.min.js' => false,
-            );
-        }
+
         if (Yii::app()->request->isAjaxRequest) {
             $done =$this->renderPartial('admin',array(
                 'model'=>$model,

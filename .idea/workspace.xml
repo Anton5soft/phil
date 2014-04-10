@@ -26,7 +26,16 @@
       <file leaf-file-name="SiteController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="9" selection-start="1887" selection-end="1887" vertical-scroll-proportion="-11.458333" vertical-offset="895" max-vertical-offset="2655">
+            <state line="84" column="17" selection-start="1894" selection-end="2076" vertical-scroll-proportion="-15.208333" vertical-offset="895" max-vertical-offset="2655">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/phil/views/site/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="2" selection-start="77" selection-end="77" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
@@ -35,16 +44,7 @@
       <file leaf-file-name="contact.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/phil/views/site/contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="16" selection-start="91" selection-end="91" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="975">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/phil/views/layouts/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="9" selection-start="433" selection-end="433" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="1605">
+            <state line="0" column="0" selection-start="0" selection-end="185" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="975">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,43 @@
       <file leaf-file-name="DocumentController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/DocumentController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="168" column="9" selection-start="5057" selection-end="5057" vertical-scroll-proportion="-15.625" vertical-offset="2145" max-vertical-offset="3420">
+            <state line="195" column="9" selection-start="5756" selection-end="5756" vertical-scroll-proportion="-21.25" vertical-offset="2415" max-vertical-offset="3480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pager.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/phil/css/pager.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/phil/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="18" selection-start="357" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="2805">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="column2.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/phil/views/layouts/column2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="435">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="column1.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/phil/views/layouts/column1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="10" selection-start="820" selection-end="820" vertical-scroll-proportion="0.425" vertical-offset="0" max-vertical-offset="600">
               <folding />
             </state>
           </provider>
@@ -62,16 +98,7 @@
       <file leaf-file-name="TourController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/TourController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="181" column="9" selection-start="4762" selection-end="4762" vertical-scroll-proportion="-61.25" vertical-offset="1245" max-vertical-offset="3270">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PagNews.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protected/components/PagNews.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="118" selection-start="706" selection-end="706" vertical-scroll-proportion="0.275" vertical-offset="0" max-vertical-offset="600">
+            <state line="186" column="9" selection-start="4932" selection-end="4932" vertical-scroll-proportion="-20.0" vertical-offset="2310" max-vertical-offset="3345">
               <folding />
             </state>
           </provider>
@@ -80,34 +107,7 @@
       <file leaf-file-name="VideoController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/VideoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="9" selection-start="4008" selection-end="4008" vertical-scroll-proportion="-20.625" vertical-offset="1800" max-vertical-offset="3255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/tour/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="840">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/news/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="2" selection-start="182" selection-end="182" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="735">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/controllers/NewsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="188" column="0" selection-start="5017" selection-end="5278" vertical-scroll-proportion="-15.0" vertical-offset="2460" max-vertical-offset="3585">
+            <state line="185" column="9" selection-start="4855" selection-end="4855" vertical-scroll-proportion="-10.625" vertical-offset="2520" max-vertical-offset="3330">
               <folding />
             </state>
           </provider>
@@ -145,7 +145,6 @@
         <option value="$PROJECT_DIR$/protected/views/tour/_form.php" />
         <option value="$PROJECT_DIR$/protected/views/tour/admin.php" />
         <option value="$PROJECT_DIR$/protected/views/video/admin.php" />
-        <option value="$PROJECT_DIR$/themes/phil/css/styles.css" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/default/index.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/js/links.js" />
@@ -163,12 +162,14 @@
         <option value="$PROJECT_DIR$/protected/config/main.php" />
         <option value="$PROJECT_DIR$/themes/phil/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/protected/views/tour/index.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/VideoController.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/DocumentController.php" />
         <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/protected/components/PagNews.php" />
         <option value="$PROJECT_DIR$/protected/controllers/NewsController.php" />
         <option value="$PROJECT_DIR$/protected/controllers/TourController.php" />
-        <option value="$PROJECT_DIR$/protected/components/PagNews.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/VideoController.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/DocumentController.php" />
+        <option value="$PROJECT_DIR$/themes/phil/css/styles.css" />
+        <option value="$PROJECT_DIR$/themes/phil/views/layouts/column1.php" />
       </list>
     </option>
   </component>
@@ -474,6 +475,10 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -645,6 +650,142 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gridview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -656,10 +797,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/phil/views/layouts" />
+      <recent name="$PROJECT_DIR$/protected/views/video" />
       <recent name="$PROJECT_DIR$/protected/components" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/protected/models" />
-      <recent name="$PROJECT_DIR$/protected/views/site" />
     </key>
   </component>
   <component name="RunManager">
@@ -731,21 +873,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/messages/ru/news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="52" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="165" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/messages/ru/tour.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="165" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jsslidervideo/jquery.bxslider.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="444" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jsslidervideo/jquery.bxslider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="679" column="24" selection-start="26437" selection-end="26442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="19680" />
@@ -929,30 +1056,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/phil/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="2" selection-start="77" selection-end="77" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/components/LangBox.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="21" selection-start="136" selection-end="136" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/phil/css/pager.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/phil/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="3" selection-start="2959" selection-end="2973" vertical-scroll-proportion="0.0" vertical-offset="1005" max-vertical-offset="2805">
           <folding />
         </state>
       </provider>
@@ -985,13 +1091,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/phil/views/site/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="91" selection-end="91" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="975">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/phil/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="9" selection-start="433" selection-end="433" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="1605">
@@ -1013,44 +1112,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/DocumentController.php">
+    <entry file="file://$PROJECT_DIR$/protected/components/PagNews.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="9" selection-start="5057" selection-end="5057" vertical-scroll-proportion="-15.625" vertical-offset="2145" max-vertical-offset="3420">
+        <state line="10" column="68" selection-start="578" selection-end="578" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+    <entry file="file://$PROJECT_DIR$/framework/zii/widgets/grid/CGridView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="9" selection-start="1887" selection-end="1887" vertical-scroll-proportion="-11.458333" vertical-offset="895" max-vertical-offset="2655">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/VideoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="9" selection-start="4008" selection-end="4008" vertical-scroll-proportion="-20.625" vertical-offset="1800" max-vertical-offset="3255">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="18.75" vertical-offset="450" max-vertical-offset="9720">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/NewsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="0" selection-start="5017" selection-end="5278" vertical-scroll-proportion="-15.0" vertical-offset="2460" max-vertical-offset="3585">
+        <state line="195" column="9" selection-start="5017" selection-end="5248" vertical-scroll-proportion="-8.125" vertical-offset="2730" max-vertical-offset="3495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="17" selection-start="1894" selection-end="2076" vertical-scroll-proportion="-15.208333" vertical-offset="895" max-vertical-offset="2655">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/TourController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="9" selection-start="4762" selection-end="4762" vertical-scroll-proportion="-61.25" vertical-offset="1245" max-vertical-offset="3270">
+        <state line="186" column="9" selection-start="4932" selection-end="4932" vertical-scroll-proportion="-20.0" vertical-offset="2310" max-vertical-offset="3345">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/PagNews.php">
+    <entry file="file://$PROJECT_DIR$/protected/controllers/VideoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="118" selection-start="706" selection-end="706" vertical-scroll-proportion="0.275" vertical-offset="0" max-vertical-offset="600">
+        <state line="185" column="9" selection-start="4855" selection-end="4855" vertical-scroll-proportion="-10.625" vertical-offset="2520" max-vertical-offset="3330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/DocumentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="195" column="9" selection-start="5756" selection-end="5756" vertical-scroll-proportion="-21.25" vertical-offset="2415" max-vertical-offset="3480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/phil/css/pager.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/phil/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="18" selection-start="357" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="2805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/phil/views/layouts/column2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/phil/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="2" selection-start="77" selection-end="77" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/phil/views/site/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="185" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/phil/views/layouts/column1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="10" selection-start="820" selection-end="820" vertical-scroll-proportion="0.425" vertical-offset="0" max-vertical-offset="600">
           <folding />
         </state>
       </provider>

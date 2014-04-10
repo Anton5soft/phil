@@ -2153,3 +2153,97 @@ Stack trace:
 REQUEST_URI=/phil/js/adminactions.js?_=1397141756237
 HTTP_REFERER=http://localhost/phil/admin
 ---
+2014/04/10 17:57:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/66c9ba75/wym.css".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/66c9ba75...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/assets/66c9ba75/wym.css
+---
+2014/04/10 17:57:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397141876987
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/10 17:58:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/66c9ba75/wym.css".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/66c9ba75...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/assets/66c9ba75/wym.css
+---
+2014/04/10 17:59:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/66c9ba75/wym.css".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/66c9ba75...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/assets/66c9ba75/wym.css
+---
+2014/04/10 17:59:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397141992741
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/10 18:12:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397142764894
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/10 18:12:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397142775793
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/10 18:13:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397142787869
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/10 18:14:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397142842862
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/10 18:14:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/66c9ba75/wym.css".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/66c9ba75...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/assets/66c9ba75/wym.css
+---
+2014/04/10 18:15:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/66c9ba75/wym.css".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/66c9ba75...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/assets/66c9ba75/wym.css
+---

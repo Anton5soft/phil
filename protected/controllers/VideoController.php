@@ -176,9 +176,14 @@ class VideoController extends Controller
 		if(isset($_GET['Video']))
 			$model->attributes=$_GET['Video'];
 
-		$this->render('admin',array(
-			'model'=>$model,
-		));
+
+        if (Yii::app()->request->isAjaxRequest) {
+            $done =$this->renderPartial('admin',array(
+                'model'=>$model,
+            ), true, true);
+            echo $done;
+            Yii::app()->end();
+        }
 	}
 
 	/**
