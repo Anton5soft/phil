@@ -1,0 +1,10 @@
+<?php var_dump(Yii::app()->session['lang']) ?>
+    <br>
+    <a href="<?php Yii::app()->controller->createUrl('Site/SwitchLanguage', array('language'=>'en_US')); ?>">ENGLISH</a> | <a href="<?php Yii::app()->controller->createUrl('Site/SwitchLanguage', array('language'=>'ru')); ?>">Русский</a>
+    <ul>
+        <li>
+            <a href="#"><?php echo Yii::t('menu', '[home]'); ?></a>
+        </li>
+    </ul>
+    <br>
+    <br>

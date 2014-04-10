@@ -1,0 +1,186 @@
+#page {
+    padding-top: 60px;
+}
+
+body {
+    background-color: #000000;
+    background:url('img/background.jpg')
+no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.ajaxcont {
+    text-align : center;
+    opacity: 0.6;
+    -webkit-border-top-left-radius: 30px;
+    -webkit-border-top-right-radius: 30px;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+    margin: 20px auto;
+    display: block;
+    width: 300px;
+    min-height: 310px;
+    padding:20px;
+    background: #D4DEDF;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    background: -webkit-linear-gradient(90deg, #D4DEDF, #DCDCDE);
+    width: 970px;
+}
+.ajaxcontmenu {
+    opacity: 0.6;
+    -webkit-border-top-left-radius: 30px;
+    -webkit-border-top-right-radius: 30px;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+    margin: 20px auto;
+    display: block;
+    width: 300px;
+    min-height: 310px;
+    padding:20px;
+    background: #D4DEDF;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    background: -webkit-linear-gradient(90deg, #D4DEDF, #DCDCDE);
+     width: 770px;
+}
+.newscont {
+    font-size:16px;
+    font-family:Georgia,serif;
+    color:#4E443C;
+    font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;
+    opacity: 0.6;
+    -webkit-border-top-left-radius: 30px;
+    -webkit-border-top-right-radius: 30px;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+    margin: 20px auto;
+    display: block;
+    width: 300px;
+    min-height: 310px;
+    padding:20px;
+    background: #D4DEDF;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    background: -webkit-linear-gradient(90deg, #D4DEDF, #DCDCDE);
+    width: 770px;
+}
+.gallery {
+    opacity: 0.8;
+    -webkit-border-top-left-radius: 30px;
+    -webkit-border-top-right-radius: 30px;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+    margin: 20px auto;
+    display: block;
+    width: 300px;
+    min-height: 310px;
+    padding:20px;
+    background: #D4DEDF;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    background: -webkit-linear-gradient(90deg, #D4DEDF, #DCDCDE);
+    width: 770px;
+}
+.tourcont {
+    font-size:16px;
+    font-family:Georgia,serif;
+    color:#4E443C;
+    font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;
+    opacity: 0.6;
+    -webkit-border-top-left-radius: 30px;
+    -webkit-border-top-right-radius: 30px;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+    margin: 20px auto;
+    display: block;
+    width: 300px;
+    min-height: 310px;
+    padding:20px;
+    background: #D4DEDF;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    background: -webkit-linear-gradient(90deg, #D4DEDF, #DCDCDE);
+    width: 770px;
+}
+.admin {
+    opacity: 0.6;
+    -webkit-border-top-left-radius: 30px;
+    -webkit-border-top-right-radius: 30px;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+    margin: 20px auto;
+    display: block;
+    width: 300px;
+    min-height: 310px;
+    padding:20px;
+    background: #D4DEDF;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    background: -webkit-linear-gradient(90deg, #D4DEDF, #DCDCDE);
+    width: 770px;
+}
+.author {
+    
+}
+.videocont {
+    opacity: 0.7;
+    -webkit-border-top-left-radius: 30px;
+    -webkit-border-top-right-radius: 30px;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+    margin: 20px auto;
+    display: block;
+    width: 600px;
+    min-height: 540px;
+    padding:20px;
+    background: #D4DEDF;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    background: -webkit-linear-gradient(90deg, #D4DEDF, #DCDCDE);
+    width: 870px;
+}
+.contact {
+    opacity: 0.7;
+    -webkit-border-top-left-radius: 30px;
+    -webkit-border-top-right-radius: 30px;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+    margin: 20px auto;
+    display: block;
+    width: 600px;
+    min-height: 540px;
+    padding:20px;
+    background: #D4DEDF;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    background: -webkit-linear-gradient(90deg, #D4DEDF, #DCDCDE);
+    width: 970px;
+
+}
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+    height: 60px;
+}
+#footer {
+    background-color: #f5f5f5;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
