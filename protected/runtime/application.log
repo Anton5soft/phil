@@ -2020,3 +2020,11 @@ Stack trace:
 REQUEST_URI=/phil/news
 HTTP_REFERER=http://localhost/phil/site
 ---
+2014/04/10 17:28:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "contact".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('contact')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/contact
+---
