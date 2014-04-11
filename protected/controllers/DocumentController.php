@@ -159,22 +159,12 @@ class DocumentController extends Controller
         }
         $dataProvider=new CActiveDataProvider('Document');
         if (Yii::app()->request->isAjaxRequest) {
-            Yii::app()->getClientScript()->scriptMap = array(
-                'jquery.js' => false,
-                'jquery.min.js' => false,
-                'jquery-ui.min.js' => false,
-                'jquery.ba-bbq.js'=>false,
-                'jquery.yiigridview.js'=>false,
-            );
-        }
-        if (Yii::app()->request->isAjaxRequest) {
             $done =$this->renderPartial('index', array(
-                'items'=>$items
-            ), true, true);
+                'items' => $items,
+            ), true,true);
             echo $done;
             Yii::app()->end();
         }
-
 	}
 
 	/**
@@ -187,14 +177,23 @@ class DocumentController extends Controller
 		if(isset($_GET['Document']))
 			$model->attributes=$_GET['Document'];
 
-        if (Yii::app()->request->isAjaxRequest) {
+        if (Yii::app()->request->isAjaxRequest &&  isset($_GET['ajax'])  && ($_GET['ajax'] == 'document_grid') ) {
+            $done = $this->renderPartial('admin_grid',array(
+                'model'=>$model,
+            ),true);
+            echo $done;
+            Yii::app()->end();
+        }
+        if (Yii::app()->request->isAjaxRequest &&  !isset($_GET['ajax'])) {
+
             $done =$this->renderPartial('admin',array(
                 'model'=>$model,
             ), true, true);
             echo $done;
             Yii::app()->end();
         }
-	}
+
+    }
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.

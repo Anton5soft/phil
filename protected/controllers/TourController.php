@@ -149,8 +149,6 @@ class TourController extends Controller
                 'jquery.js' => false,
                 'jquery.min.js' => false,
                 'jquery-ui.min.js' => false,
-                'jquery.ba-bbq.js'=>false,
-                'jquery.yiigridview.js'=>false,
             );
         }
         if (Yii::app()->request->isAjaxRequest) {
@@ -171,21 +169,31 @@ class TourController extends Controller
 	/**
 	 * Manages all models.
 	 */
-	public function actionAdmin()
-	{
-		$model=new Tour('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Tour']))
-			$model->attributes=$_GET['Tour'];
 
-        if (Yii::app()->request->isAjaxRequest) {
+    public function actionAdmin()
+    {
+        $model=new Tour('search');
+        $model->unsetAttributes();  // clear any default values
+        if(isset($_GET['Tour']))
+            $model->attributes=$_GET['Tour'];
+        if (Yii::app()->request->isAjaxRequest &&  isset($_GET['ajax'])  && ($_GET['ajax'] == 'tour_grid') ) {
+            $done = $this->renderPartial('admin_grid',array(
+                'model'=>$model,
+            ),true);
+            echo $done;
+            Yii::app()->end();
+        }
+        if (Yii::app()->request->isAjaxRequest &&  !isset($_GET['ajax'])) {
+
             $done =$this->renderPartial('admin',array(
                 'model'=>$model,
             ), true, true);
             echo $done;
             Yii::app()->end();
         }
-	}
+
+    }
+
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.

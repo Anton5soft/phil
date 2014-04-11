@@ -169,23 +169,29 @@ class VideoController extends Controller
 	/**
 	 * Manages all models.
 	 */
-	public function actionAdmin()
-	{
-		$model=new Video('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Video']))
-			$model->attributes=$_GET['Video'];
+    public function actionAdmin()
+    {
+        $model=new Video('search');
+        $model->unsetAttributes();  // clear any default values
+        if(isset($_GET['Video']))
+            $model->attributes=$_GET['Video'];
+        if (Yii::app()->request->isAjaxRequest &&  isset($_GET['ajax'])  && ($_GET['ajax'] == 'video_grid') ) {
+            $done = $this->renderPartial('admin_grid',array(
+                'model'=>$model,
+            ),true);
+            echo $done;
+            Yii::app()->end();
+        }
+        if (Yii::app()->request->isAjaxRequest &&  !isset($_GET['ajax'])) {
 
-
-        if (Yii::app()->request->isAjaxRequest) {
             $done =$this->renderPartial('admin',array(
                 'model'=>$model,
             ), true, true);
             echo $done;
             Yii::app()->end();
         }
-	}
 
+    }
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.

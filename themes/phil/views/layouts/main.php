@@ -9,6 +9,7 @@
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 
     </div>
+
     <?php
     $baseUrl = Yii::app()->baseUrl;
     Yii::app()->clientScript->registerCoreScript('jquery.ui');

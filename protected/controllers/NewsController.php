@@ -186,13 +186,22 @@ class NewsController extends Controller
         $model->unsetAttributes();  // clear any default values
         if(isset($_GET['News']))
             $model->attributes=$_GET['News'];
-        if (Yii::app()->request->isAjaxRequest) {
+       if (Yii::app()->request->isAjaxRequest &&  isset($_GET['ajax'])  && ($_GET['ajax'] == 'news_grid') ) {
+            $done = $this->renderPartial('admin_grid',array(
+                'model'=>$model,
+            ),true);
+           echo $done;
+            Yii::app()->end();
+        }
+        if (Yii::app()->request->isAjaxRequest &&  !isset($_GET['ajax'])) {
+
             $done =$this->renderPartial('admin',array(
                 'model'=>$model,
             ), true, true);
             echo $done;
             Yii::app()->end();
         }
+
 	}
 
 	/**

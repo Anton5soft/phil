@@ -1,16 +1,16 @@
 $(document).ready(function(){
-    $(".adminpanel").click(function() {
-        var link = $(this).data('url');
+    $(".update").click(function() {
         $.ajax({
-            url: link,
+            url: 'news/create',
             type: "GET",
             dataType: "html",
-            async:false,
             success: function(data){
-                $('.ajaxcont').html(data);
+                $('#ajaxcont').html(data);
+
             }
         }).fail(function(){
             alert("Error");
         });
     });
+
 });

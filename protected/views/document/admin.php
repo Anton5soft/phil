@@ -8,24 +8,4 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 </p>
 
 </div><!-- search-form -->
-
-<?php $this->widget('zii.widgets.grid.CGridView', array(
-	'id'=>'document-grid',
-    'ajaxUpdate'=>true,
-	'dataProvider'=>$model->search(),
-	'filter'=>$model,
-	'columns'=>array(
-		'id',
-		'doc_name',
-		'doc_file',
-		'doc_type',
-		'doc_size',
-		'summary',
-		/*
-		'up_dated',
-		*/
-		array(
-			'class'=>'CButtonColumn',
-		),
-	),
-)); ?>
+<?php $this->renderPartial('admin_grid',array('model'=>$model)); ?>
