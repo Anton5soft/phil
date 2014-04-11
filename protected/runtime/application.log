@@ -2247,3 +2247,45 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/phil/assets/66c9ba75/wym.css
 ---
+2014/04/11 14:11:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "ajax".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/ajax
+---
+2014/04/11 14:12:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/66c9ba75/wym.css".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/66c9ba75...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/assets/66c9ba75/wym.css
+---
+2014/04/11 14:12:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397214731222
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/11 14:13:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397214796099
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/11 14:15:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/66c9ba75/wym.css".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/66c9ba75...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/assets/66c9ba75/wym.css
+---

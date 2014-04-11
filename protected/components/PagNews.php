@@ -9,7 +9,7 @@ Yii::import('CLinkPager');
              return '<li class="'.$class.'">'.CHtml::ajaxLink($label,$this->createPageUrl($page), array('success'=>'js:function(data) {
 
                                                 jQuery(".newscont").remove();
-                                                jQuery(".newsc").html(data).find("newscont").children(".pag").empty();
+                                                jQuery("#ajaxcontmenu").html(data).find("newscont").children(".pag").empty();
                                                 }
                                                 '), array('live'=> false)).'</li>';
 }
