@@ -18,7 +18,7 @@
     Yii::app()->clientScript->registerCssFile($baseUrl.'/themes/phil/css/bootstrap.css');
     ?>
 </head>
-
+<?php $this->widget('LangBox') ?>
 <body class="">
 <?php $this->widget('bootstrap.widgets.TbNavbar',array(
             'type'=>'inverse',
@@ -32,7 +32,6 @@
                 ),
             ),
         )); ?>
-
 <div class="container" id="page">
     <br>
 	<?php if(isset($this->breadcrumbs)):?>

@@ -148,7 +148,7 @@ class NewsController extends Controller
 
     function actionIndex(){
         $criteria = new CDbCriteria;
-        $criteria -> order = 'title';
+        $criteria -> order = 'id';
         $pages = new CPagination(News::model() -> count());
         $pages -> pageSize = 1;
         $pages -> applyLimit($criteria);
@@ -159,8 +159,6 @@ class NewsController extends Controller
                 'jquery.js' => false,
                 'jquery.min.js' => false,
                 'jquery-ui.min.js' => false,
-                'jquery.ba-bbq.js'=>false,
-                'jquery.yiigridview.js'=>false,
             );
         }
         if (Yii::app()->request->isAjaxRequest) {
@@ -180,13 +178,13 @@ class NewsController extends Controller
 	/**
 	 * Manages all models.
 	 */
+
 	public function actionAdmin()
 	{
-		$model=new News('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['News']))
-			$model->attributes=$_GET['News'];
-
+        $model=new News('search');
+        $model->unsetAttributes();  // clear any default values
+        if(isset($_GET['News']))
+            $model->attributes=$_GET['News'];
         if (Yii::app()->request->isAjaxRequest) {
             $done =$this->renderPartial('admin',array(
                 'model'=>$model,

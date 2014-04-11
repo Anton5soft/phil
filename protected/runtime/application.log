@@ -2289,3 +2289,362 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/phil/assets/66c9ba75/wym.css
 ---
+2014/04/11 14:19:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/66c9ba75/wym.css".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/66c9ba75...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/assets/66c9ba75/wym.css
+---
+2014/04/11 14:19:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397215162910
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/11 14:20:45 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CGridView.enableAjax".' in /www/phil/framework/base/CComponent.php:173
+Stack trace:
+#0 /www/phil/framework/web/CWidgetFactory.php(161): CComponent->__set('enableAjax', false)
+#1 /www/phil/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(DocumentController), 'zii.widgets.gri...', Array)
+#2 /www/phil/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /www/phil/protected/views/document/admin.php(31): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /www/phil/framework/web/CBaseController.php(126): require('/www/phil/prote...')
+#5 /www/phil/framework/web/CBaseController.php(95): CBaseController->renderInternal('/www/phil/prote...', Array, true)
+#6 /www/phil/framework/web/CController.php(869): CBaseController->renderFile('/www/phil/prote...', Array, true)
+#7 /www/phil/protected/controllers/DocumentController.php(193): CController->renderPartial('admin', Array, true, true)
+#8 /www/phil/framework/web/actions/CInlineAction.php(49): DocumentController->actionAdmin()
+#9 /www/phil/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /www/phil/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /www/phil/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /www/phil/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /www/phil/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /www/phil/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /www/phil/framework/web/CController.php(291): CFilterChain->run()
+#16 /www/phil/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /www/phil/framework/web/CWebApplication.php(282): CController->run('admin')
+#18 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('document/admin')
+#19 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /www/phil/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/phil/document/admin
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/11 14:24:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397215469758
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/11 14:25:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/66c9ba75/wym.css".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/66c9ba75...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/assets/66c9ba75/wym.css
+---
+2014/04/11 14:25:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397215553190
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/11 14:27:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/66c9ba75/wym.css".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/66c9ba75...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/assets/66c9ba75/wym.css
+---
+2014/04/11 14:27:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397215663480
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/11 14:28:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397215717822
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/11 14:28:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397215721026
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/11 14:29:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397215748903
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/11 14:31:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397215882785
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/11 14:32:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397215925808
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/11 14:34:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397216096938
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/11 14:35:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/adminactions.js".' in /www/phil/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('js/adminactions...')
+#1 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phil/js/adminactions.js?_=1397216096938
+---
+2014/04/11 14:38:15 [error] [php] Undefined variable: model (/www/phil/protected/controllers/NewsController.php:187)
+Stack trace:
+#0 /www/phil/framework/web/filters/CFilterChain.php(133): NewsController->runAction()
+#1 /www/phil/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /www/phil/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /www/phil/framework/web/filters/CInlineFilter.php(58): NewsController->filterAccessControl()
+#4 /www/phil/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /www/phil/framework/web/CController.php(291): CFilterChain->run()
+#6 /www/phil/framework/web/CController.php(265): NewsController->runActionWithFilters()
+#7 /www/phil/framework/web/CWebApplication.php(282): NewsController->run()
+#8 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /www/phil/index.php(13): CWebApplication->run()
+REQUEST_URI=/phil/news/admin
+in /www/phil/protected/controllers/NewsController.php (187)
+in /www/phil/index.php (13)
+2014/04/11 14:38:26 [error] [php] Undefined variable: model (/www/phil/protected/controllers/NewsController.php:187)
+Stack trace:
+#0 /www/phil/framework/web/filters/CFilterChain.php(133): NewsController->runAction()
+#1 /www/phil/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /www/phil/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /www/phil/framework/web/filters/CInlineFilter.php(58): NewsController->filterAccessControl()
+#4 /www/phil/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /www/phil/framework/web/CController.php(291): CFilterChain->run()
+#6 /www/phil/framework/web/CController.php(265): NewsController->runActionWithFilters()
+#7 /www/phil/framework/web/CWebApplication.php(282): NewsController->run()
+#8 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /www/phil/index.php(13): CWebApplication->run()
+REQUEST_URI=/phil/news/admin
+in /www/phil/protected/controllers/NewsController.php (187)
+in /www/phil/index.php (13)
+2014/04/11 14:44:02 [warning] [application] Не удалось присвоить небезопасный атрибут "created_time" класса "News".
+in /www/phil/protected/controllers/NewsController.php (186)
+in /www/phil/index.php (13)
+2014/04/11 14:44:02 [warning] [application] Не удалось присвоить небезопасный атрибут "updated_time" класса "News".
+in /www/phil/protected/controllers/NewsController.php (186)
+in /www/phil/index.php (13)
+2014/04/11 14:44:07 [warning] [application] Не удалось присвоить небезопасный атрибут "created_time" класса "News".
+in /www/phil/protected/controllers/NewsController.php (186)
+in /www/phil/index.php (13)
+2014/04/11 14:44:07 [warning] [application] Не удалось присвоить небезопасный атрибут "updated_time" класса "News".
+in /www/phil/protected/controllers/NewsController.php (186)
+in /www/phil/index.php (13)
+2014/04/11 14:45:32 [warning] [application] Не удалось присвоить небезопасный атрибут "created_time" класса "News".
+in /www/phil/protected/controllers/NewsController.php (186)
+in /www/phil/index.php (13)
+2014/04/11 14:45:32 [warning] [application] Не удалось присвоить небезопасный атрибут "updated_time" класса "News".
+in /www/phil/protected/controllers/NewsController.php (186)
+in /www/phil/index.php (13)
+2014/04/11 14:53:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in /www/phil/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /www/phil/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 /www/phil/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /www/phil/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /www/phil/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /www/phil/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /www/phil/framework/web/CController.php(291): CFilterChain->run()
+#6 /www/phil/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /www/phil/framework/web/CWebApplication.php(282): CController->run('adminview')
+#8 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news/adminview')
+#9 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /www/phil/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/phil/news/adminview/
+---
+2014/04/11 14:54:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in /www/phil/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /www/phil/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 /www/phil/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /www/phil/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /www/phil/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /www/phil/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /www/phil/framework/web/CController.php(291): CFilterChain->run()
+#6 /www/phil/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /www/phil/framework/web/CWebApplication.php(282): CController->run('adminView')
+#8 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news/adminView')
+#9 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /www/phil/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/phil/news/adminView
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/11 14:54:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in /www/phil/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /www/phil/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 /www/phil/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /www/phil/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /www/phil/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /www/phil/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /www/phil/framework/web/CController.php(291): CFilterChain->run()
+#6 /www/phil/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /www/phil/framework/web/CWebApplication.php(282): CController->run('adminView')
+#8 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news/adminView')
+#9 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /www/phil/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/phil/news/adminView
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/11 14:54:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in /www/phil/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /www/phil/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 /www/phil/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /www/phil/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /www/phil/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /www/phil/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /www/phil/framework/web/CController.php(291): CFilterChain->run()
+#6 /www/phil/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /www/phil/framework/web/CWebApplication.php(282): CController->run('adminView')
+#8 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news/adminView')
+#9 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /www/phil/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/phil/news/adminView
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/11 14:54:58 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in /www/phil/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /www/phil/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 /www/phil/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /www/phil/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /www/phil/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /www/phil/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /www/phil/framework/web/CController.php(291): CFilterChain->run()
+#6 /www/phil/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /www/phil/framework/web/CWebApplication.php(282): CController->run('adminView')
+#8 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news/adminView')
+#9 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /www/phil/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/phil/news/adminView
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/11 14:55:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in /www/phil/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /www/phil/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 /www/phil/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /www/phil/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /www/phil/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /www/phil/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /www/phil/framework/web/CController.php(291): CFilterChain->run()
+#6 /www/phil/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /www/phil/framework/web/CWebApplication.php(282): CController->run('adminView')
+#8 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news/adminView')
+#9 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /www/phil/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/phil/news/adminView
+HTTP_REFERER=http://localhost/phil/admin
+---
+2014/04/11 14:55:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in /www/phil/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /www/phil/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 /www/phil/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /www/phil/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /www/phil/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /www/phil/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /www/phil/framework/web/CController.php(291): CFilterChain->run()
+#6 /www/phil/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /www/phil/framework/web/CWebApplication.php(282): CController->run('adminview')
+#8 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news/adminview')
+#9 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /www/phil/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/phil/news/adminview/
+---
+2014/04/11 14:56:07 [error] [php] Undefined variable: model (/www/phil/protected/controllers/NewsController.php:184)
+Stack trace:
+#0 /www/phil/framework/web/filters/CFilterChain.php(133): NewsController->runAction()
+#1 /www/phil/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /www/phil/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /www/phil/framework/web/filters/CInlineFilter.php(58): NewsController->filterAccessControl()
+#4 /www/phil/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /www/phil/framework/web/CController.php(291): CFilterChain->run()
+#6 /www/phil/framework/web/CController.php(265): NewsController->runActionWithFilters()
+#7 /www/phil/framework/web/CWebApplication.php(282): NewsController->run()
+#8 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /www/phil/index.php(13): CWebApplication->run()
+REQUEST_URI=/phil/news/adminView
+in /www/phil/protected/controllers/NewsController.php (184)
+in /www/phil/index.php (13)
+2014/04/11 14:56:10 [error] [php] Undefined variable: model (/www/phil/protected/controllers/NewsController.php:184)
+Stack trace:
+#0 /www/phil/framework/web/filters/CFilterChain.php(133): NewsController->runAction()
+#1 /www/phil/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /www/phil/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /www/phil/framework/web/filters/CInlineFilter.php(58): NewsController->filterAccessControl()
+#4 /www/phil/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /www/phil/framework/web/CController.php(291): CFilterChain->run()
+#6 /www/phil/framework/web/CController.php(265): NewsController->runActionWithFilters()
+#7 /www/phil/framework/web/CWebApplication.php(282): NewsController->run()
+#8 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /www/phil/index.php(13): CWebApplication->run()
+REQUEST_URI=/phil/news/adminView
+in /www/phil/protected/controllers/NewsController.php (184)
+in /www/phil/index.php (13)
+2014/04/11 14:57:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "adminView".' in /www/phil/framework/web/CController.php:483
+Stack trace:
+#0 /www/phil/framework/web/CController.php(270): CController->missingAction('adminView')
+#1 /www/phil/framework/web/CWebApplication.php(282): CController->run('adminView')
+#2 /www/phil/framework/web/CWebApplication.php(141): CWebApplication->runController('news/adminView')
+#3 /www/phil/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /www/phil/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/phil/news/adminView
+HTTP_REFERER=http://localhost/phil/admin
+---

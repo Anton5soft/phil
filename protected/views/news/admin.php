@@ -1,10 +1,3 @@
-
-<?php
-$baseUrl = Yii::app()->baseUrl;
-Yii::app()->clientScript->registerCoreScript('jquery.ui');
-Yii::app()->clientScript->registerScriptFile($baseUrl.'/js/adminactions.js', CClientScript::POS_END);
-?>
-
 <h1>Manage News</h1>
 
 <p>
@@ -32,4 +25,3 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
         ),
     ),
 )); ?>
-<div id="AdmNewsView" data-url="<?php echo Yii::app()->createUrl('news/'); ?>"></div>
