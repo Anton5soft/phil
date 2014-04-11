@@ -122,6 +122,7 @@ class NewsController extends Controller
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
+
 		$this->renderPartial('update',array(
 			'model'=>$model,
 		));
