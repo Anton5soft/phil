@@ -5,6 +5,7 @@ $(document).ready(function(){
             url: link,
             type: "GET",
             dataType: "html",
+            async:false,
             success: function(data){
                 $('.ajaxcont').html(data);
             }

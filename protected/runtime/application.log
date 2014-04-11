@@ -2648,3 +2648,226 @@ Stack trace:
 REQUEST_URI=/phil/news/adminView
 HTTP_REFERER=http://localhost/phil/admin
 ---
+2014/04/11 12:35:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /www/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /www/phil/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/04/11 12:56:40 [error] [php] Undefined index: ajax (/www/phil/protected/controllers/NewsController.php:189)
+Stack trace:
+#0 /www/framework/web/filters/CFilterChain.php(133): NewsController->runAction()
+#1 /www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /www/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /www/framework/web/filters/CInlineFilter.php(58): NewsController->filterAccessControl()
+#4 /www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /www/framework/web/CController.php(291): CFilterChain->run()
+#6 /www/framework/web/CController.php(265): NewsController->runActionWithFilters()
+#7 /www/framework/web/CWebApplication.php(282): NewsController->run()
+#8 /www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /www/phil/index.php(15): CWebApplication->run()
+REQUEST_URI=/news/admin
+in /www/phil/protected/controllers/NewsController.php (189)
+in /www/phil/index.php (15)
+2014/04/11 12:56:47 [error] [php] Undefined index: ajax (/www/phil/protected/controllers/NewsController.php:189)
+Stack trace:
+#0 /www/framework/web/filters/CFilterChain.php(133): NewsController->runAction()
+#1 /www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /www/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /www/framework/web/filters/CInlineFilter.php(58): NewsController->filterAccessControl()
+#4 /www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /www/framework/web/CController.php(291): CFilterChain->run()
+#6 /www/framework/web/CController.php(265): NewsController->runActionWithFilters()
+#7 /www/framework/web/CWebApplication.php(282): NewsController->run()
+#8 /www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /www/phil/index.php(15): CWebApplication->run()
+REQUEST_URI=/news/admin
+in /www/phil/protected/controllers/NewsController.php (189)
+in /www/phil/index.php (15)
+2014/04/11 13:40:45 [error] [exception.CException] exception 'CException' with message 'The asset "/www/phil/protected/extensions/imperavi-redactor-widget/assets" to be published does not exist.' in /www/framework/web/CAssetManager.php:257
+Stack trace:
+#0 /www/phil/protected/extensions/imperavi-redactor-widget/ImperaviRedactorWidget.php(145): CAssetManager->publish('/www/phil/prote...')
+#1 /www/phil/protected/extensions/imperavi-redactor-widget/ImperaviRedactorWidget.php(76): ImperaviRedactorWidget->getAssetsUrl()
+#2 /www/phil/protected/extensions/imperavi-redactor-widget/ImperaviRedactorWidget.php(66): ImperaviRedactorWidget->registerClientScript()
+#3 /www/framework/web/CBaseController.php(147): ImperaviRedactorWidget->init()
+#4 /www/framework/web/CBaseController.php(172): CBaseController->createWidget('ImperaviRedacto...', Array)
+#5 /www/phil/protected/views/news/_form.php(35): CBaseController->widget('ImperaviRedacto...', Array)
+#6 /www/framework/web/CBaseController.php(126): require('/www/phil/prote...')
+#7 /www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/www/phil/prote...', Array, true)
+#8 /www/framework/web/CController.php(869): CBaseController->renderFile('/www/phil/prote...', Array, true)
+#9 /www/phil/protected/views/news/create.php(4): CController->renderPartial('_form', Array)
+#10 /www/framework/web/CBaseController.php(126): require('/www/phil/prote...')
+#11 /www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/www/phil/prote...', Array, true)
+#12 /www/framework/web/CController.php(869): CBaseController->renderFile('/www/phil/prote...', Array, true)
+#13 /www/phil/protected/controllers/NewsController.php(101): CController->renderPartial('create', Array, true, true)
+#14 /www/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#15 /www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 /www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 /www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 /www/framework/web/CController.php(291): CFilterChain->run()
+#22 /www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /www/framework/web/CWebApplication.php(282): CController->run('create')
+#24 /www/framework/web/CWebApplication.php(141): CWebApplication->runController('news/create')
+#25 /www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#26 /www/phil/index.php(15): CApplication->run()
+#27 {main}
+REQUEST_URI=/news/create
+HTTP_REFERER=http://phil.loc/admin
+---
+2014/04/11 13:40:47 [error] [exception.CException] exception 'CException' with message 'The asset "/www/phil/protected/extensions/imperavi-redactor-widget/assets" to be published does not exist.' in /www/framework/web/CAssetManager.php:257
+Stack trace:
+#0 /www/phil/protected/extensions/imperavi-redactor-widget/ImperaviRedactorWidget.php(145): CAssetManager->publish('/www/phil/prote...')
+#1 /www/phil/protected/extensions/imperavi-redactor-widget/ImperaviRedactorWidget.php(76): ImperaviRedactorWidget->getAssetsUrl()
+#2 /www/phil/protected/extensions/imperavi-redactor-widget/ImperaviRedactorWidget.php(66): ImperaviRedactorWidget->registerClientScript()
+#3 /www/framework/web/CBaseController.php(147): ImperaviRedactorWidget->init()
+#4 /www/framework/web/CBaseController.php(172): CBaseController->createWidget('ImperaviRedacto...', Array)
+#5 /www/phil/protected/views/news/_form.php(35): CBaseController->widget('ImperaviRedacto...', Array)
+#6 /www/framework/web/CBaseController.php(126): require('/www/phil/prote...')
+#7 /www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/www/phil/prote...', Array, true)
+#8 /www/framework/web/CController.php(869): CBaseController->renderFile('/www/phil/prote...', Array, true)
+#9 /www/phil/protected/views/news/create.php(4): CController->renderPartial('_form', Array)
+#10 /www/framework/web/CBaseController.php(126): require('/www/phil/prote...')
+#11 /www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/www/phil/prote...', Array, true)
+#12 /www/framework/web/CController.php(869): CBaseController->renderFile('/www/phil/prote...', Array, true)
+#13 /www/phil/protected/controllers/NewsController.php(101): CController->renderPartial('create', Array, true, true)
+#14 /www/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#15 /www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 /www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 /www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 /www/framework/web/CController.php(291): CFilterChain->run()
+#22 /www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /www/framework/web/CWebApplication.php(282): CController->run('create')
+#24 /www/framework/web/CWebApplication.php(141): CWebApplication->runController('news/create')
+#25 /www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#26 /www/phil/index.php(15): CApplication->run()
+#27 {main}
+REQUEST_URI=/news/create
+HTTP_REFERER=http://phil.loc/admin
+---
+2014/04/11 13:40:54 [error] [exception.CException] exception 'CException' with message 'The asset "/www/phil/protected/extensions/imperavi-redactor-widget/assets" to be published does not exist.' in /www/framework/web/CAssetManager.php:257
+Stack trace:
+#0 /www/phil/protected/extensions/imperavi-redactor-widget/ImperaviRedactorWidget.php(145): CAssetManager->publish('/www/phil/prote...')
+#1 /www/phil/protected/extensions/imperavi-redactor-widget/ImperaviRedactorWidget.php(76): ImperaviRedactorWidget->getAssetsUrl()
+#2 /www/phil/protected/extensions/imperavi-redactor-widget/ImperaviRedactorWidget.php(66): ImperaviRedactorWidget->registerClientScript()
+#3 /www/framework/web/CBaseController.php(147): ImperaviRedactorWidget->init()
+#4 /www/framework/web/CBaseController.php(172): CBaseController->createWidget('ImperaviRedacto...', Array)
+#5 /www/phil/protected/views/news/_form.php(35): CBaseController->widget('ImperaviRedacto...', Array)
+#6 /www/framework/web/CBaseController.php(126): require('/www/phil/prote...')
+#7 /www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/www/phil/prote...', Array, true)
+#8 /www/framework/web/CController.php(869): CBaseController->renderFile('/www/phil/prote...', Array, true)
+#9 /www/phil/protected/views/news/create.php(4): CController->renderPartial('_form', Array)
+#10 /www/framework/web/CBaseController.php(126): require('/www/phil/prote...')
+#11 /www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/www/phil/prote...', Array, true)
+#12 /www/framework/web/CController.php(869): CBaseController->renderFile('/www/phil/prote...', Array, true)
+#13 /www/phil/protected/controllers/NewsController.php(101): CController->renderPartial('create', Array, true, true)
+#14 /www/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#15 /www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 /www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 /www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 /www/framework/web/CController.php(291): CFilterChain->run()
+#22 /www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /www/framework/web/CWebApplication.php(282): CController->run('create')
+#24 /www/framework/web/CWebApplication.php(141): CWebApplication->runController('news/create')
+#25 /www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#26 /www/phil/index.php(15): CApplication->run()
+#27 {main}
+REQUEST_URI=/news/create
+HTTP_REFERER=http://phil.loc/admin
+---
+2014/04/11 13:42:37 [error] [exception.CException] exception 'CException' with message 'The asset "/www/phil/protected/extensions/imperavi-redactor-widget/assets" to be published does not exist.' in /www/framework/web/CAssetManager.php:257
+Stack trace:
+#0 /www/phil/protected/extensions/imperavi-redactor-widget/ImperaviRedactorWidget.php(145): CAssetManager->publish('/www/phil/prote...')
+#1 /www/phil/protected/extensions/imperavi-redactor-widget/ImperaviRedactorWidget.php(76): ImperaviRedactorWidget->getAssetsUrl()
+#2 /www/phil/protected/extensions/imperavi-redactor-widget/ImperaviRedactorWidget.php(66): ImperaviRedactorWidget->registerClientScript()
+#3 /www/framework/web/CBaseController.php(147): ImperaviRedactorWidget->init()
+#4 /www/framework/web/CBaseController.php(172): CBaseController->createWidget('ImperaviRedacto...', Array)
+#5 /www/phil/protected/views/news/_form.php(35): CBaseController->widget('ImperaviRedacto...', Array)
+#6 /www/framework/web/CBaseController.php(126): require('/www/phil/prote...')
+#7 /www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/www/phil/prote...', Array, true)
+#8 /www/framework/web/CController.php(869): CBaseController->renderFile('/www/phil/prote...', Array, true)
+#9 /www/phil/protected/views/news/create.php(4): CController->renderPartial('_form', Array)
+#10 /www/framework/web/CBaseController.php(126): require('/www/phil/prote...')
+#11 /www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/www/phil/prote...', Array, true)
+#12 /www/framework/web/CController.php(869): CBaseController->renderFile('/www/phil/prote...', Array, true)
+#13 /www/phil/protected/controllers/NewsController.php(101): CController->renderPartial('create', Array, true, true)
+#14 /www/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#15 /www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 /www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 /www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 /www/framework/web/CController.php(291): CFilterChain->run()
+#22 /www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /www/framework/web/CWebApplication.php(282): CController->run('create')
+#24 /www/framework/web/CWebApplication.php(141): CWebApplication->runController('news/create')
+#25 /www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#26 /www/phil/index.php(15): CApplication->run()
+#27 {main}
+REQUEST_URI=/news/create
+HTTP_REFERER=http://phil.loc/admin
+---
+2014/04/11 13:51:18 [error] [exception.CException] exception 'CException' with message 'The asset "/www/phil/protected/extensions/imperavi-redactor-widget/assets" to be published does not exist.' in /www/framework/web/CAssetManager.php:257
+Stack trace:
+#0 /www/phil/protected/extensions/imperavi-redactor-widget/ImperaviRedactorWidget.php(145): CAssetManager->publish('/www/phil/prote...')
+#1 /www/phil/protected/extensions/imperavi-redactor-widget/ImperaviRedactorWidget.php(76): ImperaviRedactorWidget->getAssetsUrl()
+#2 /www/phil/protected/extensions/imperavi-redactor-widget/ImperaviRedactorWidget.php(66): ImperaviRedactorWidget->registerClientScript()
+#3 /www/framework/web/CBaseController.php(147): ImperaviRedactorWidget->init()
+#4 /www/framework/web/CBaseController.php(172): CBaseController->createWidget('ImperaviRedacto...', Array)
+#5 /www/phil/protected/views/news/_form.php(35): CBaseController->widget('ImperaviRedacto...', Array)
+#6 /www/framework/web/CBaseController.php(126): require('/www/phil/prote...')
+#7 /www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/www/phil/prote...', Array, true)
+#8 /www/framework/web/CController.php(869): CBaseController->renderFile('/www/phil/prote...', Array, true)
+#9 /www/phil/protected/views/news/create.php(4): CController->renderPartial('_form', Array)
+#10 /www/framework/web/CBaseController.php(126): require('/www/phil/prote...')
+#11 /www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/www/phil/prote...', Array, true)
+#12 /www/framework/web/CController.php(869): CBaseController->renderFile('/www/phil/prote...', Array, true)
+#13 /www/phil/protected/controllers/NewsController.php(101): CController->renderPartial('create', Array, true, true)
+#14 /www/framework/web/actions/CInlineAction.php(49): NewsController->actionCreate()
+#15 /www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 /www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 /www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 /www/framework/web/CController.php(291): CFilterChain->run()
+#22 /www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /www/framework/web/CWebApplication.php(282): CController->run('create')
+#24 /www/framework/web/CWebApplication.php(141): CWebApplication->runController('news/create')
+#25 /www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#26 /www/phil/index.php(15): CApplication->run()
+#27 {main}
+REQUEST_URI=/news/create
+HTTP_REFERER=http://phil.loc/admin
+---
+2014/04/11 14:02:42 [warning] [application] Failed to set unsafe attribute "created_time" of "News".
+in /www/phil/protected/controllers/NewsController.php (188)
+in /www/phil/index.php (15)
+2014/04/11 14:02:42 [warning] [application] Failed to set unsafe attribute "updated_time" of "News".
+in /www/phil/protected/controllers/NewsController.php (188)
+in /www/phil/index.php (15)
+2014/04/11 14:02:46 [warning] [application] Failed to set unsafe attribute "created_time" of "News".
+in /www/phil/protected/controllers/NewsController.php (188)
+in /www/phil/index.php (15)
+2014/04/11 14:02:46 [warning] [application] Failed to set unsafe attribute "updated_time" of "News".
+in /www/phil/protected/controllers/NewsController.php (188)
+in /www/phil/index.php (15)
+2014/04/11 14:05:16 [warning] [application] Failed to set unsafe attribute "created_time" of "News".
+in /www/phil/protected/controllers/NewsController.php (188)
+in /www/phil/index.php (15)
+2014/04/11 14:05:16 [warning] [application] Failed to set unsafe attribute "updated_time" of "News".
+in /www/phil/protected/controllers/NewsController.php (188)
+in /www/phil/index.php (15)
