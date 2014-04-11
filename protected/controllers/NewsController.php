@@ -82,27 +82,24 @@ class NewsController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionCreate()
-	{
-		$model=new News;
+    public function actionCreate()
+    {
+        $model=new News;
 
-		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+        // Uncomment the following line if AJAX validation is needed
+        // $this->performAjaxValidation($model);
 
-		if(isset($_POST['News']))
-		{
-			$model->attributes=$_POST['News'];
-			if($model->save())
-				$this->redirect(array('/admin/default/index'));
-		}
-        if (Yii::app()->request->isAjaxRequest) {
-            $done =$this->renderPartial('create',array(
-                'model'=>$model,
-            ), true, true);
-            echo $done;
-            Yii::app()->end();
+        if(isset($_POST['News']))
+        {
+            $model->attributes=$_POST['News'];
+            if($model->save())
+                $this->redirect(array('/admin/default/index'));
         }
-	}
+
+        $this->renderPartial('create',array(
+            'model'=>$model,
+        ));
+    }
 
 	/**
 	 * Updates a particular model.
@@ -187,11 +184,11 @@ class NewsController extends Controller
         if(isset($_GET['News']))
             $model->attributes=$_GET['News'];
        if (Yii::app()->request->isAjaxRequest &&  isset($_GET['ajax'])  && ($_GET['ajax'] == 'news_grid') ) {
-<<<<<<< HEAD
+
             $done = $this->renderPartial('admin_grid',array(
                 'model'=>$model,
             ),true);
-=======
+
             //$model->attributes = $_GET['News_sort'];
             /*var_dump($model);
 
@@ -200,7 +197,6 @@ class NewsController extends Controller
                 'model'=>$model,
             ),true);
            //$done = 'hello';
->>>>>>> 7af85f9f8b4c49aaeb89601e01504a139b8c1c8e
            echo $done;
             Yii::app()->end();
         }
