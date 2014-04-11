@@ -2871,6 +2871,7 @@ in /www/phil/index.php (15)
 2014/04/11 14:05:16 [warning] [application] Failed to set unsafe attribute "updated_time" of "News".
 in /www/phil/protected/controllers/NewsController.php (188)
 in /www/phil/index.php (15)
+<<<<<<< HEAD
 2014/04/11 14:27:40 [error] [exception.CException] exception 'CException' with message 'Путь CAssetManager.basePath "/www/phil3/assets" задан неверно. Удостоверьтесь, что директория существует и доступна для записи пользователю, под которым запущен веб-сервер.' in /www/framework/web/CAssetManager.php:138
 Stack trace:
 #0 /www/framework/web/CAssetManager.php(123): CAssetManager->setBasePath('/www/phil3/asse...')
@@ -3381,3 +3382,5 @@ in /www/phil/index.php (13)
 2014/04/11 18:07:18 [warning] [application] Не удалось присвоить небезопасный атрибут "updated_time" класса "News".
 in /www/phil/protected/controllers/NewsController.php (188)
 in /www/phil/index.php (13)
+=======
+>>>>>>> 7af85f9f8b4c49aaeb89601e01504a139b8c1c8e
