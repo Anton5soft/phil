@@ -5,6 +5,7 @@
     Yii::app()->clientScript->registerScriptFile($baseUrl.'/js/links.js', CClientScript::POS_END);
     Yii::app()->clientScript->registerScriptFile($baseUrl.'/js/dialogadmin.js', CClientScript::POS_END);
     ?>
+
     <h1>Admin Panel</h1>
 
     <?php $this->widget('bootstrap.widgets.TbMenu', array(

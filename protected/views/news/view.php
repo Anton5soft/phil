@@ -1,23 +1,19 @@
 <?php
-/* @var $this NewsController */
-/* @var $model News */
+$baseUrl = Yii::app()->baseUrl;
+Yii::app()->clientScript->registerCoreScript('jquery.ui');
+Yii::app()->clientScript->registerScriptFile($baseUrl.'/js/linkbred.js', CClientScript::POS_END);
+?>
+<?php
+$this->widget('bredlinks', array(
+    'links'=>array(
+        'NEWS' => '#',
+        $model->title,
+    ),
 
-$this->breadcrumbs=array(
-	'News'=>array('index'),
-	$model->title,
-);
-$this->menu=array(
-    array('label'=>'Admin Panel', 'url'=>array('/admin')),
-    array('label'=>'Create news', 'url'=>array('news/create')),
-    array('label'=>'List News', 'url'=>array('/news/index')),
-    array('label'=>'Manage News', 'url'=>array('/news/admin')),
-    array('label'=>'View News', 'url'=>array('view', 'id'=>$model->id)),
-    array('label'=>'Update News', 'url'=>array('update', 'id'=>$model->id)),
-    array('label'=>'Delete News', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
-    array('label'=>'Video Add', 'url'=>array('video/create')),
-    array('label'=>'List Video', 'url'=>array('video/index')),
-
-);
+    'htmlOptions' => array(
+        'class' => 'breadcrumbs breadcrumb'
+    )
+));
 ?>
 
 <?php $this->renderPartial('_view', array(

@@ -13,6 +13,19 @@
  */
 class News extends CActiveRecord
 {
+    public function defaultScope() {
+        return array(
+            'condition' => "lang='".Yii::app()->language."'",
+        );
+    }
+
+    // именованное условие с параметром
+    public function lang($lang){
+        $this->getDbCriteria()->mergeWith(array(
+            'condition' => "lang='$lang'",
+        ));
+        return $this;
+    }
 	/**
 	 * @return string the associated database table name
 	 */

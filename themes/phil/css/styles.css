@@ -31,6 +31,24 @@ no-repeat center center fixed;
     background: -webkit-linear-gradient(90deg, #D4DEDF, #DCDCDE);
     width: 970px;
 }
+.viewnews {
+    font-size:14px;
+    color:#4E443C;
+    font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;
+    -webkit-border-top-left-radius: 30px;
+    -webkit-border-top-right-radius: 30px;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+    margin: 20px auto;
+    display: block;
+    width: 300px;
+    min-height: 310px;
+    padding:20px;
+    background: #D4DEDF;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    background: -webkit-linear-gradient(90deg, #D4DEDF, #DCDCDE);
+    width: 770px;
+}
 .ajaxcontmenu {
 
     -webkit-border-top-left-radius: 30px;

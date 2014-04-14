@@ -1,6 +1,7 @@
+<div class="viewnews">
 <div class="news">
     <div class="title">
-        <?php echo CHtml::link(CHtml::encode($data->title), $data->url); ?>
+        <center> <h3>"<?php echo CHtml::encode($data->title); ?></h3></center>
     </div>
 
     <div class="content">
@@ -13,4 +14,5 @@
     <div class="author">
        <?php echo ' on ' . date('F j, Y',$data->created_time); ?>
     </div>
+</div>
 </div>

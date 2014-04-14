@@ -44,7 +44,19 @@
     </div>
 
     <div class="row buttons">
-        <?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+
+        <?php // ознакомиться в документации jQuery.
+        echo CHtml::ajaxSubmitButton('Create', '', array(
+                'type' => 'POST',
+                // Результат запроса записываем в элемент, найденный
+                // по CSS-селектору #output.
+                'update' => '.ajaxcont',
+            ),
+            array(
+                // Меняем тип элемента на submit, чтобы у пользователей
+                // с отключенным JavaScript всё было хорошо.
+                'type' => 'submit'
+            )); ?>
     </div>
     <?php $this->endWidget(); ?>
 

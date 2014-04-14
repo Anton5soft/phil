@@ -14,8 +14,10 @@
     $baseUrl = Yii::app()->baseUrl;
     Yii::app()->clientScript->registerCoreScript('jquery.ui');
     Yii::app()->clientScript->registerScriptFile($baseUrl.'/js/links.js', CClientScript::POS_END);
+    Yii::app()->clientScript->registerScriptFile($baseUrl.'/js/linksnews.js', CClientScript::POS_END);
     Yii::app()->clientScript->registerCssFile($baseUrl.'/themes/phil/css/bootstrap.css');
     ?>
+
 </head>
 <body class="">
 <div id="mainmenu">

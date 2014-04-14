@@ -76,11 +76,12 @@ class DocumentController extends Controller
 	 */
 	public function actionCreate()
 	{
+
         $model = new Document;
         $model->up_dated = date('Y-m-d');
 
         // Uncomment the following line if AJAX validation is needed
-        // $this->performAjaxValidation($model);
+      $this->performAjaxValidation($model);
         $path = Yii::app()->basePath . '/../images';
         if (!is_dir($path)) {
             mkdir($path);
@@ -102,11 +103,18 @@ class DocumentController extends Controller
             if ($model->save()) {
                 $this->redirect(array('/admin/default/index'));
             }
+            else {
+            }
         }
-        $this->renderPartial('create', array(
-            'model' => $model,
-        ));
-	}
+        if (Yii::app()->request->isAjaxRequest) {
+            $done =   $this->renderPartial('create', array('model'=>$model),true,true);
+            echo $done;
+            Yii::app()->end();
+        }
+
+        $this->renderPartial('create', array('model'=>$model),true,true);
+    }
+
 
 	/**
 	 * Updates a particular model.
