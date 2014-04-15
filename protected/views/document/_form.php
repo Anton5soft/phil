@@ -2,7 +2,7 @@
     <?php
     $form = $this->beginWidget('CActiveForm', array(
         'id' => 'document-form',
-        'enableAjaxValidation' => false,
+        'enableAjaxValidation' => true,
         'htmlOptions' => array('enctype' => 'multipart/form-data')
     ));
     ?>
@@ -20,10 +20,7 @@
         });
         ");
     ?>
-    <?php
-    $baseUrl = Yii::app()->baseUrl;
-    Yii::app()->clientScript->registerScriptFile($baseUrl.'/js/preview.js', CClientScript::POS_END);
-    ?>
+
     <p class="note">Fields with <span class="required">*</span> are required.</p>
     <?php echo $form->errorSummary($model); ?>
     <div class="row">
@@ -33,30 +30,21 @@
     </div>
     <div class="row">
         <?php echo $form->labelEx($model, 'doc_file'); ?>
-        <?php echo $form->fileField($model, 'doc_file' ,array('id'=>'imgInput1',)); ?>
-        <?php echo $form->error($model, 'doc_file'); ?>
+        <?php
+        $this->widget('CMultiFileUpload', array(
+            'model'=>$model,
+            'name'=>'image',
+            'attribute'=>'image',
+            'accept'=>'jpg|gif|png',
+        ));
+        ?>
+        <?php echo $form->error($model,'image'); ?>
     </div>
 
-    <div class="row">
-        <?php echo $form->labelEx($model, 'summary'); ?>
-        <?php echo $form->textArea($model, 'summary', array('rows' => 6, 'cols' => 50)); ?>
-        <?php echo $form->error($model, 'summary'); ?>
-    </div>
 
     <div class="row buttons">
+        <?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 
-        <?php // ознакомиться в документации jQuery.
-        echo CHtml::ajaxSubmitButton('Create', '', array(
-                'type' => 'POST',
-                // Результат запроса записываем в элемент, найденный
-                // по CSS-селектору #output.
-                'update' => '.ajaxcont',
-            ),
-            array(
-                // Меняем тип элемента на submit, чтобы у пользователей
-                // с отключенным JavaScript всё было хорошо.
-                'type' => 'submit'
-            )); ?>
     </div>
     <?php $this->endWidget(); ?>
 

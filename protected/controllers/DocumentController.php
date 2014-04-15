@@ -74,48 +74,38 @@ class DocumentController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionCreate()
-	{
 
-        $model = new Document;
-        $model->up_dated = date('Y-m-d');
-
+    public function actionCreate()
+    {
+        $model=new Document;
         // Uncomment the following line if AJAX validation is needed
-      $this->performAjaxValidation($model);
-        $path = Yii::app()->basePath . '/../images';
-        if (!is_dir($path)) {
-            mkdir($path);
-        }
-        if (isset($_POST['Document'])) {
-            $model->attributes = $_POST['Document'];
-            if (@!empty($_FILES['Document']['name']['doc_file'])) {
-                $model->doc_file = $_POST['Document']['doc_file'];
-                if ($model->validate(array('doc_file'))) {
-                    $model->doc_file = CUploadedFile::getInstance($model, 'doc_file');
-                } else {
-                    $model->doc_file = '';
+        $this->performAjaxValidation($model);
+
+        if(isset($_POST['Document']))
+        {
+            $model->attributes=$_POST['Document'];
+            $images = CUploadedFile::getInstancesByName('image');
+
+            if(isset($images) && count($images)> 0)
+            {
+                foreach ($images as $image=>$pic)
+                {
+                    if ($pic->saveAs(Yii::getPathOfAlias('webroot').'/images/'.$pic->name,0777))
+                    {
+                        $model->setIsNewRecord(true);
+                        $model->id = null;
+                        $model->doc_file= $pic->name;
+                        $model->save();
+                    }
                 }
-                $model->doc_file->saveAs($path . '/' . time() . '_' . str_replace(' ', '_', strtolower($model->doc_file)));
-                $model->doc_type = $model->doc_file->getType();
-                $model->doc_size = $model->doc_file->getSize();
+                $this->redirect(array('view','id'=>$model->id));
             }
-            $model->doc_file = time() . '_' . str_replace(' ', '_', strtolower($model->doc_file));
-            if ($model->save()) {
-                $this->redirect(array('/admin/default/index'));
-            }
-            else {
-            }
-        }
-        if (Yii::app()->request->isAjaxRequest) {
-            $done =   $this->renderPartial('create', array('model'=>$model),true,true);
-            echo $done;
-            Yii::app()->end();
         }
 
-        $this->renderPartial('create', array('model'=>$model),true,true);
+        $this->render('create',array(
+            'model'=>$model,
+        ));
     }
-
-
 	/**
 	 * Updates a particular model.
 	 * If update is successful, the browser will be redirected to the 'view' page.

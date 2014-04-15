@@ -14,6 +14,7 @@
  */
 class Document extends CActiveRecord
 {
+    public $doc_file;
 	/**
 	 * @return string the associated database table name
 	 */

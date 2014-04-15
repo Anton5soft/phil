@@ -4,10 +4,9 @@ $(document).ready(function(){
         $.ajax({
             url: link,
             type: "POST",
-            dataType: "html",
             success: function(data){
-                $('#ajaxcont').html(data);
-
+                $('.ajaxcont').html(data);
+alert('Your image was uploaded');
             }
         }).fail(function(){
             alert("Error");
