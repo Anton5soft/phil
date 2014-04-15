@@ -92,6 +92,7 @@ class DocumentController extends Controller
                 {
                     if ($pic->saveAs(Yii::getPathOfAlias('webroot').'/images/'.$pic->name,0777))
                     {
+                        //$model = new Document;
                         $model->setIsNewRecord(true);
                         $model->id = null;
                         $model->doc_file= $pic->name;

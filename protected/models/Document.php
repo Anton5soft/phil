@@ -29,7 +29,7 @@ class Document extends CActiveRecord
     public function rules()
     {
         return array(
-            array('doc_file', 'file', 'types'=>'jpg, gif, png'),
+            //array('doc_file', 'file', 'types'=>'jpg, gif, png'),
             array('doc_name', 'required'),
             // rememberMe needs to be a boolean
         );

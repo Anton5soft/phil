@@ -95,7 +95,13 @@ class NewsController extends Controller
             if($model->save())
                 $this->redirect(array('/admin/default/index'));
         }
-
+        if (Yii::app()->request->isAjaxRequest) {
+            $done = $this->renderPartial('create',array(
+                'model'=>$model,
+            ),true,true);
+            echo $done;
+            Yii::app()->end();
+        }
         $this->renderPartial('create',array(
             'model'=>$model,
         ));
@@ -181,6 +187,7 @@ class NewsController extends Controller
 	{
         $model=new News('search');
         $model->unsetAttributes();  // clear any default values
+        $this->performAjaxValidation($model);
         if(isset($_GET['News']))
             $model->attributes=$_GET['News'];
        if (Yii::app()->request->isAjaxRequest &&  isset($_GET['ajax'])  && ($_GET['ajax'] == 'news_grid') ) {
