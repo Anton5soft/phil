@@ -4,7 +4,10 @@
     'filter'=>$model,
     'columns'=>array(
         'title',
-        'content',
+        array(
+            'name'=>'content',
+            'type'=>'raw',
+        ),
         'created_time',
         'updated_time',
         'lang',
@@ -12,6 +15,7 @@
         'up_dated',
         */
         array(
+            'template'=>'{delete}',
             'class'=>'CButtonColumn',
         ),
     ),

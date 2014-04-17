@@ -191,18 +191,12 @@ class NewsController extends Controller
         if(isset($_GET['News']))
             $model->attributes=$_GET['News'];
        if (Yii::app()->request->isAjaxRequest &&  isset($_GET['ajax'])  && ($_GET['ajax'] == 'news_grid') ) {
-
             $done = $this->renderPartial('admin_grid',array(
                 'model'=>$model,
             ),true);
-
-            //$model->attributes = $_GET['News_sort'];
-            /*var_dump($model);
-            Yii::app()->end();*/
             $done = $this->renderPartial('admin_grid',array(
                 'model'=>$model,
             ),true);
-           //$done = 'hello';
            echo $done;
             Yii::app()->end();
         }

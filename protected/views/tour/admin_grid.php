@@ -6,8 +6,9 @@
         'lang',
 		'title',
 		'content',
-		array(
-			'class'=>'CButtonColumn',
-		),
+        array(
+            'template'=>'{delete}',
+            'class'=>'CButtonColumn',
+        ),
 	),
 )); ?>

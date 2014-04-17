@@ -13,6 +13,7 @@
 		'up_dated',
 		*/
 		array(
+            'template'=>'{delete}',
 			'class'=>'CButtonColumn',
 		),
 	),

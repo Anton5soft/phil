@@ -13,6 +13,7 @@
  */
 class News extends CActiveRecord
 {
+    /* language
     public function defaultScope() {
         return array(
             'condition' => "lang='".Yii::app()->language."'",
@@ -26,6 +27,7 @@ class News extends CActiveRecord
         ));
         return $this;
     }
+    */
 	/**
 	 * @return string the associated database table name
 	 */

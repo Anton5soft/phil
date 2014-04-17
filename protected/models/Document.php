@@ -28,7 +28,7 @@ class Document extends CActiveRecord
     public function rules()
     {
         return array(
-            array('doc_file', 'required'),
+            array('doc_name', 'required'),
             // rememberMe needs to be a boolean
         );
     }

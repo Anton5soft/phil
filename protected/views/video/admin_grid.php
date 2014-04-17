@@ -6,6 +6,7 @@
         'id',
         'link',
         array(
+            'template'=>'{delete}',
             'class'=>'CButtonColumn',
         ),
     ),

@@ -85,7 +85,6 @@ class TourController extends Controller
 		{
 			$model->attributes=$_POST['Tour'];
 			if($model->save())
-
                 Yii::app()->user->setFlash('success',"На указанный email было отправленно письмо для подтверждения регистрации!");
                 $this->redirect(array('/admin/default/index'));
 		}
@@ -119,7 +118,6 @@ class TourController extends Controller
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
-
 		$this->render('update',array(
 			'model'=>$model,
 		));
