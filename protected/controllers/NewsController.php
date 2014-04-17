@@ -102,7 +102,7 @@ class NewsController extends Controller
             echo $done;
             Yii::app()->end();
         }
-        $this->renderPartial('create',array(
+        $this->render('create',array(
             'model'=>$model,
         ));
     }

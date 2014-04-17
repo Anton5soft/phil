@@ -79,7 +79,7 @@ class VideoController extends Controller
 		$model=new Video;
 
 		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+		 $this->performAjaxValidation($model);
 
 		if(isset($_POST['Video']))
 		{
@@ -87,7 +87,13 @@ class VideoController extends Controller
 			if($model->save())
                 $this->redirect(array('/admin/default/index'));
 		}
-
+        if (Yii::app()->request->isAjaxRequest) {
+            $done =$this->renderPartial('create',array(
+                'model'=>$model,
+            ),true,true);
+            echo $done;//JSON
+            Yii::app()->end();
+        }
 		$this->renderPartial('create',array(
 			'model'=>$model,
 		));

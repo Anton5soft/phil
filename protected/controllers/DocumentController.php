@@ -99,13 +99,21 @@ class DocumentController extends Controller
                         $model->save();
                     }
                 }
-                $this->redirect(array('view','id'=>$model->id));
-            }
+                Yii::app()->user->setFlash('success',"Ваша картинка загруженна");
+                $this->redirect(array('/admin/default/index'));
+         }
+        if (Yii::app()->request->isAjaxRequest) {
+            $done =$this->renderPartial('create',array(
+                'model'=>$model,
+            ),true,true);
+            echo $done;
+            Yii::app()->end();
         }
+            }
 
-        $this->render('create',array(
+        $this->renderPartial('create',array(
             'model'=>$model,
-        ));
+        ),false,true);
     }
 	/**
 	 * Updates a particular model.

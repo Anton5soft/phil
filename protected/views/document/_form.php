@@ -2,24 +2,12 @@
     <?php
     $form = $this->beginWidget('CActiveForm', array(
         'id' => 'document-form',
-        'enableAjaxValidation' => true,
-        'htmlOptions' => array('enctype' => 'multipart/form-data')
+        'htmlOptions' => array('enctype' => 'multipart/form-data'),
+        'enableAjaxValidation'=>true,
+        'clientOptions'=>array('validateOnSubmit'=>true),
     ));
     ?>
-    <?php
-    Yii::app()->clientScript->registerScript('search', "
-        $('.search-button').click(function(){
-                $('.doc-form').toggle();
-                return false;
-        });
-        $('.doc-form form').submit(function(){
-                $.fn.yiiGridView.update('document-grid', {
-                        data: $(this).serialize()
-                });
-                return false;
-        });
-        ");
-    ?>
+
 
     <p class="note">Fields with <span class="required">*</span> are required.</p>
     <?php echo $form->errorSummary($model); ?>
@@ -38,7 +26,7 @@
             'accept'=>'jpg|gif|png',
         ));
         ?>
-        <?php echo $form->error($model,'image'); ?>
+
     </div>
 
 

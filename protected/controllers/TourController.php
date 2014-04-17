@@ -79,18 +79,26 @@ class TourController extends Controller
 		$model=new Tour;
 
 		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+		 $this->performAjaxValidation($model);
 
 		if(isset($_POST['Tour']))
 		{
 			$model->attributes=$_POST['Tour'];
 			if($model->save())
+
+                Yii::app()->user->setFlash('success',"На указанный email было отправленно письмо для подтверждения регистрации!");
                 $this->redirect(array('/admin/default/index'));
 		}
-
+        if (Yii::app()->request->isAjaxRequest) {
+            $done =$this->renderPartial('create',array(
+                'model'=>$model,
+            ),true,true);
+            echo $done;//JSON
+            Yii::app()->end();
+        }
 		$this->renderPartial('create',array(
 			'model'=>$model,
-		));
+		),true,true);
 	}
 
 	/**

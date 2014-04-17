@@ -12,7 +12,8 @@
 	// controller action is handling ajax validation correctly.
 	// There is a call to performAjaxValidation() commented in generated controller code.
 	// See class documentation of CActiveForm for details on this.
-	'enableAjaxValidation'=>false,
+	'enableAjaxValidation'=>true,
+    'clientOptions'=>array('validateOnSubmit'=>true),
 )); ?>
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
@@ -30,14 +31,13 @@
 		<?php echo $form->textField($model,'content',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'content'); ?>
 	</div>
-
-	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
-	</div>
     <div class="row">
         <?php echo $form->labelEx($model,'lang'); ?>
         <?php echo $form->dropDownList($model,'lang',array('ru'=>'ru','en'=>'en'), array('options' => array('en'=>array('selected'=>true)))); ?>
         <?php echo $form->error($model,'lang'); ?>
+    </div>
+    <div class="row buttons">
+        <?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
     </div>
 <?php $this->endWidget(); ?>
 

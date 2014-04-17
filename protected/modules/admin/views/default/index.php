@@ -75,4 +75,9 @@
 <div class="ajaxcont">
     <p>Admin Panel</p>
     <p>Here you can create and change you content</p>
+    <?php if(Yii::app()->user->hasFlash('success')):?>
+        <div class="flash-success">
+            <?php echo Yii::app()->user->getFlash('success'); ?>
+        </div>
+    <?php endif; ?>
 </div>

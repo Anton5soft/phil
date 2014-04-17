@@ -14,7 +14,6 @@
  */
 class Document extends CActiveRecord
 {
-    public $doc_file;
 	/**
 	 * @return string the associated database table name
 	 */
@@ -29,8 +28,7 @@ class Document extends CActiveRecord
     public function rules()
     {
         return array(
-            //array('doc_file', 'file', 'types'=>'jpg, gif, png'),
-            array('doc_name', 'required'),
+            array('doc_file', 'required'),
             // rememberMe needs to be a boolean
         );
     }
