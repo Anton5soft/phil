@@ -1,0 +1,19 @@
+This is the lightbox gallery
+To use this extension paste this code
+<?php
+$this->widget('ext.SliderPopImage.SliderPopImage', array(
+//path to your image
+'img'=>array(
+    'images/image.jpg',
+    'images/image.jpg',
+),
+//your class
+    'class'=>'yourclass',
+//your margin
+    'margin'=>'10',
+//height adn width of images
+    'height'=>'111',
+    'width'=>'111',
+
+));
+?>

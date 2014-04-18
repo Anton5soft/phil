@@ -14,3 +14,17 @@ $this->pageTitle=Yii::app()->name;
 </div>
 <div id="ajaxcontmenu">
 </div>
+<?php
+$this->widget('ext.SliderPopImage.SliderPopImage', array(
+'img'=>array(
+    'images/1396840599_heinecker-200x300.jpg',
+    'images/1396840599_heinecker-200x300.jpg',
+    'images/1396840599_heinecker-200x300.jpg'
+),
+    'class'=>'yourclass',
+    'margin'=>'10',
+    'height'=>'111',
+    'width'=>'111',
+
+));
+?>

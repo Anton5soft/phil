@@ -2,9 +2,9 @@
     <?php
     $form = $this->beginWidget('CActiveForm', array(
         'id' => 'document-form',
-        'htmlOptions' => array('enctype' => 'multipart/form-data'),
         'enableAjaxValidation'=>true,
         'clientOptions'=>array('validateOnSubmit'=>true),
+        'htmlOptions' => array('enctype' => 'multipart/form-data'),
     ));
     ?>
 
