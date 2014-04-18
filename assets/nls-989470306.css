@@ -1,0 +1,79 @@
+/** Content:
+/phil/js/jsslidervideo/jquery.bxslider.css
+/phil/themes/phil/css/bootstrap.css
+*/
+
+	/*
+	error downloading http://localhost/phil/phil/js/jsslidervideo/jquery.bxslider.css:The requested URL returned error: 404
+	curl_info:Array
+(
+    [url] => http://localhost/phil/phil/js/jsslidervideo/jquery.bxslider.css
+    [content_type] => 
+    [http_code] => 404
+    [header_size] => 0
+    [request_size] => 211
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.01051
+    [namelookup_time] => 3.4E-5
+    [connect_time] => 0.000124
+    [pretransfer_time] => 0.00013
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => 0
+    [starttransfer_time] => 0.010486
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 127.0.0.1
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 127.0.0.1
+    [local_port] => 43764
+)
+
+	*/
+	
+	/*
+	error downloading http://localhost/phil/phil/themes/phil/css/bootstrap.css:The requested URL returned error: 404
+	curl_info:Array
+(
+    [url] => http://localhost/phil/phil/themes/phil/css/bootstrap.css
+    [content_type] => 
+    [http_code] => 404
+    [header_size] => 0
+    [request_size] => 204
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.016503
+    [namelookup_time] => 3.3E-5
+    [connect_time] => 0.000115
+    [pretransfer_time] => 0.000121
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => 0
+    [starttransfer_time] => 0.016464
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 127.0.0.1
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 127.0.0.1
+    [local_port] => 43765
+)
+
+	*/
+	
